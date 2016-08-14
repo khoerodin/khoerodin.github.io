@@ -4,7 +4,13 @@ meta_description    : "Khoerodin's blog"
 
 
 markdown            : kramdown
-highlighter         : pygments
+highlighter         : rouge
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
 
 paginate            : 5
 paginate_path       : /page/:num
@@ -37,4 +43,3 @@ gems:
   - jemoji
   - jekyll-paginate
   - jekyll-seo-tag
-  - pygments.rb

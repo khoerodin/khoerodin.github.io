@@ -19,13 +19,13 @@ In this post I'll walk through rotating a bi-dimension matrix, in a functional w
 
 In linear algebra, the [transpose](https://en.wikipedia.org/wiki/Transpose) of a matrix A is another matrix At created by reflecting A over its main diagonal (which runs from top-left to bottom-right) to obtain At. Formally, the i-th row, j-th column element of At is the j-th row, i-th column element of A:
 
-{% highlight javascript linenos %}
+```js
 A[j][i] === At[i][j];
-{% endhighlight %}
+```
 
 Therefore, a simple function to transpose a Matrix , returning a new transpose of the original, could look something like: 
 
-{% highlight javascript linenos %}
+```js
 function transpose(matrix) {
   var output = deepCopy(matrix);
 
@@ -37,7 +37,7 @@ function transpose(matrix) {
   }
   return output;
 }
-{% endhighlight %}
+```
 
 We relied on a [deepCopy helper](http://nick.balestra.ch/2015/deep-copying-and-empty-arrays/) to avoid side effects on the original Matrix. If you were seeking for a constant O(1) space complexity solution, scroll down for the in-place revised version.
 
@@ -51,20 +51,20 @@ We relied on a [deepCopy helper](http://nick.balestra.ch/2015/deep-copying-and-e
 
 The horizontal flip of a matrix A is another matrix Afh created by reflecting A over its horizontal line of symmetry (which runs from mid-left to mid-right) to obtain Afh. 
 
-{% highlight javascript linenos %}
+```js
 A[j][i] === Afh[j][A.length - 1 - i];
-{% endhighlight %}
+```
 
 
 While the vertical flip of a matrix A is another matrix Afv created by reflecting A over its vertical line of symmetry (which runs from mid-top to mid-bottom) to obtain Afv.
 
-{% highlight javascript linenos %}
+```js
 A[j][i] === Afv[A.length - 1 - j][i];
-{% endhighlight %}
+```
 
 Same idea, slightly different code:
 
-{% highlight javascript linenos %}
+```js
 function flipVertical(matrix) {
   var output = deepCopy(matrix);
 
@@ -76,9 +76,9 @@ function flipVertical(matrix) {
   }
   return output;
 }
-{% endhighlight %}
+```
 
-{% highlight javascript linenos %}
+```js
 function flipHorizontal(matrix) {
   var output = deepCopy(matrix);
 
@@ -90,8 +90,7 @@ function flipHorizontal(matrix) {
   }
   return output;
 }
-{% endhighlight %}
-
+```
 ***
 
 ### Rotating
@@ -104,7 +103,7 @@ At this point rotating the Matrix, is just a matter of function composition:
 
 <br>We could then put it all together and have a pretty sweet Matrix rotating function:
 
-{% highlight javascript linenos %}
+```js
 function rotateMatrix(matrix, deg) {
   deg = deg || 90;
 
@@ -121,7 +120,7 @@ function rotateMatrix(matrix, deg) {
       return flipHorizontal(transpose(matrix));
   }
 }
-{% endhighlight %}
+```
 
 ***
 
@@ -129,7 +128,7 @@ function rotateMatrix(matrix, deg) {
 
 You are tight in memory and desperately need that O(1) space implementation? Here we go, it will be just a matter of slightly tweaking our transpose and flip functions so that they operate in-place:
 
-{% highlight javascript linenos %}
+```js
 function transposeInPlace(matrix) {
   for (var y = 0; y < matrix.length - 1; y++) {
     for (var x = y + 1; x < matrix.length; x++) {
@@ -179,4 +178,4 @@ function rotateMatrixInPlace(matrix, deg) {
       return flipHorizontalInPlace(transposeInPlace(matrix));
   }
 }
-{% endhighlight %}
+```
