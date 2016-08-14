@@ -1,6 +1,7 @@
 name                : Khoerodin
 description         : Bismillah, Berkah, Manfaat
-meta_description    : "Khoerodin's blog"
+twitter             :
+  username: khoerodin
 
 
 markdown            : kramdown
@@ -14,7 +15,7 @@ kramdown:
 
 paginate            : 5
 paginate_path       : /page/:num
-baseurl             : 
+baseurl             : /
 domain_name         : 'http://khoerodin.id'
 google_analytics    : '#'
 disqus_shortname    : 'khoerodin'
