@@ -21,7 +21,7 @@
 		      {% endcase %}
 		      {{ post.date | date: "%Y" }}
             </aside></a>
-            <a href='{{ post.url }}'>{{ post.title }} <h2>{{ post.description }}</h2></a>
+            <a href='{{ post.url }}'>{{ post.title }} <h2 class="post-desc">{{ post.description }}</h2></a>
         </li>
     {% endfor %}
 </ul>
