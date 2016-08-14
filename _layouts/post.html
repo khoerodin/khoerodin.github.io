@@ -1,0 +1,72 @@
+---
+layout: default
+disqus: true
+readmore: true
+---
+
+<article class="post">
+    <header>
+        <h2 class="headline">
+        {% assign m = page.date | date: "%-m" %}
+        {{ page.date | date: "%-d" }}
+        {% case m %}
+          {% when '1' %}Januari
+          {% when '2' %}Februari
+          {% when '3' %}Maret
+          {% when '4' %}April
+          {% when '5' %}Mei
+          {% when '6' %}Juni
+          {% when '7' %}Juli
+          {% when '8' %}Agustus
+          {% when '9' %}September
+          {% when '10' %}Oktober
+          {% when '11' %}November
+          {% when '12' %}Desember
+        {% endcase %}
+        {{ page.date | date: "%Y" }}
+        </h2>
+        
+        <h1>{{ page.title }}</h1>
+
+        {% for tag in page.tags %}
+        <span class="tags"><a href="/tag#{{ tag }}" class="tag">#{{ tag }}</a></span>
+        {% endfor %}
+    </header>    
+
+    <section id="post-body">
+        {{content}}
+    </section>
+</article>
+<footer id="post-meta" class="clearfix">
+    <a href="/about">
+        <img class="avatar" src="/assets/images/profile.png">
+        <div>
+            <span class="dark">Khoerodin</span>
+            <span>Web developer</span>
+        </div>
+    </a>
+
+    <section id="sharing">
+        {% include share.html %}
+    </section>
+</footer>
+
+<!-- Disqus comments -->
+{% if page.disqus %}
+    {% include disqus.html %}
+{% endif %}
+
+<!-- Archive -->
+{% if page.readmore %}
+    <ul id="post-list" class="archive readmore">
+        <h3>Read more</h3>
+        {% for post in site.posts %}
+            <li>
+                <a href="{{ post.url }}">{{ post.title }}<aside class="dates">{{ post.date | date:"%b %d" }}</aside></a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endif %}
+
+
+

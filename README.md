@@ -1,0 +1,1 @@
+For my professional blog [https://khoerodin.github.io](https://khoerodin.github.io).
