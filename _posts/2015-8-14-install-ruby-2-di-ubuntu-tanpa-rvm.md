@@ -1,5 +1,5 @@
 ---
-title: "Install Ruby 2 Di Ubuntu tanpa RVM"
+title: "Install Ruby 2 di Ubuntu Tanpa RVM"
 date: 2015-8-14
 description: Langkah mudah dan cepat install Ruby versi 2 di Ubuntu tanpa ribet mengggunakan Ruby Version Manager
 tags:
