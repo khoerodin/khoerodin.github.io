@@ -3,7 +3,7 @@ description         : Try. Fail. Learn. Repeat
 meta_description    : "Khoerodin's blog"
 
 
-markdown            : redcarpet
+markdown            : kramdown
 highlighter         : pygments
 
 paginate            : 5
@@ -38,4 +38,3 @@ gems:
   - jekyll-paginate
   - jekyll-seo-tag
   - pygments.rb
-  - redcarpet
