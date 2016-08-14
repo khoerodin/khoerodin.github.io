@@ -40,3 +40,16 @@ to the `site_tags` variable. -->
     {% endunless %}{% endfor %}
   </div>
 </article>
+
+<footer id="post-meta" class="clearfix">
+    <a href="/about">
+        <img class="avatar" src="/assets/images/profile.png">
+        <div>
+            <span class="dark">Khoerodin</span>
+            <span>Web developer</span>
+        </div>
+    </a>
+    <section id="sharing">
+        {% include share.html %}
+    </section>
+</footer>
