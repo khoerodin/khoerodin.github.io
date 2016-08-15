@@ -1,15 +1,18 @@
 ---
-title: "Install Ruby 2 di Ubuntu Tanpa RVM"
+title: Install Ruby 2 di Ubuntu Tanpa RVM
 date: 2015-8-14
-description: Langkah mudah dan cepat install Ruby versi 2 di Ubuntu tanpa ribet mengggunakan Ruby Version Manager
+description: >-
+  Langkah mudah dan cepat install Ruby versi 2 di Ubuntu tanpa ribet
+  mengggunakan Ruby Version Manager
 tags:
-- ruby
-- ubuntu
-- rvm
-- programming
-- web
-- package
-- brightbox
+  - ruby
+  - ubuntu
+  - rvm
+  - programming
+  - web
+  - package
+  - brightbox
+published: true
 ---
 
 Ada banyak cara install Ruby versi 2.* di Ubuntu, salah satunya ialah menggunakan [RVM](https://rvm.io/ "RVM"), namun jika merasa ribet dengan RVM kita bisa mencoba menggunakan *Ruby Packages* dari [Brightbox](https://www.brightbox.com/docs/ruby/ubuntu/ "Brightbox").
@@ -19,6 +22,7 @@ Pada saat tulisan ini dibuat Brightbox menyediakan Ruby 1.8.7 sampai Ruby 2.3.
 ![Ruby Sticker from unixstickers.com](https://raw.githubusercontent.com/khoerodin/khoerodin.github.io/master/assets/images/ruby-sticker.jpg "Ruby Sticker from unixstickers.com")
 
 ##Menambahkan Repository
+
 Jika menggunakan **Ubuntu 14.04 atau yang terbaru**, gunakan perintah
 
 ```
