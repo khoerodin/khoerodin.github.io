@@ -1,1 +1,1 @@
-For my professional blog [https://khoerodin.github.io](https://khoerodin.github.io).
+For my professional web-blog [http://khoerodin.id](http://khoerodin.id).
