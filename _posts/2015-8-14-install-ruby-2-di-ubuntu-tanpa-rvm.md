@@ -18,6 +18,7 @@ Pada saat tulisan ini dibuat Brightbox menyediakan Ruby 1.8.7 sampai Ruby 2.3.
 
 ![Ruby Sticker from unixstickers.com](https://raw.githubusercontent.com/khoerodin/khoerodin.github.io/master/assets/images/ruby-sticker.jpg "Ruby Sticker from unixstickers.com")
 
+
 ##Menambahkan Repository
 Jika menggunakan **Ubuntu 14.04 atau yang terbaru**, gunakan perintah
 
