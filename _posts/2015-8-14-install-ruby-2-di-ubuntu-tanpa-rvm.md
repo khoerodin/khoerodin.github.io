@@ -18,7 +18,7 @@ Pada saat tulisan ini dibuat Brightbox menyediakan Ruby 1.8.7 sampai Ruby 2.3.
 
 ![Ruby Sticker from unixstickers.com](https://raw.githubusercontent.com/khoerodin/khoerodin.github.io/master/assets/images/ruby-sticker.jpg "Ruby Sticker from unixstickers.com")
 
-## Menambahkan Repository
+##Menambahkan Repository
 Jika menggunakan **Ubuntu 14.04 atau yang terbaru**, gunakan perintah
 
 ```
@@ -47,6 +47,7 @@ jika menginginkan juga **dev package**
 ```
 $ sudo apt-get install ruby1.8-dev ruby1.9.3-dev ruby2.2-dev
 ```
+
 ## Gonta-ganti Versi Ruby
 Kita bisa dengan mudah gonta-ganti versi Ruby menggunakan `ruby-switch`
 
