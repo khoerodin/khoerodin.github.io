@@ -23,7 +23,19 @@
 
   <div class="page-content">
     <div class="wrapper">
-      {{ content }}
+      {% if page.url == "/about/" %}
+        <article class="post">
+          <header class="post-header">
+            <h1 class="post-title">Khoerodin</h1>
+            <p>Bismillah, Berkah, Manfaat</p>
+          </header>
+          <div class="post-content">
+            {{ content }}
+          </div>
+        </article>
+      {% else %}     
+        {{ content }}
+      {% endif %}
     </div>
   </div>
 
