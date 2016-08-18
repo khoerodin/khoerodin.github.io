@@ -21,7 +21,7 @@ Memanggil `middleware` dalam individual route
 
 ```php
 Route::get('admin', [
-	'uses' => 'MyController@index',
+    'uses' => 'MyController@index',
     'middleware' => 'new-middleware'
 ]);
 ```
@@ -80,7 +80,7 @@ class NewMiddleware
 {
     public function handle($request, Closure $next)
     {
-        //letakan kode disini...
+        // Letakkan kode disini...
     }
 }
 ```
@@ -145,7 +145,7 @@ class BeforeMiddleware
 {
     public function handle($request, Closure $next)
     {
-        //Hadang request yang masuk
+        // Hadang request yang masuk
 
         return $next($request)
     }
@@ -179,7 +179,7 @@ class AfterMiddleware
     {
         $response = $next($request);
 
-        //Lakukan sesuatu terhadap response yang diperoleh
+        // Lakukan sesuatu terhadap response yang diperoleh
 
         return $response
     }
@@ -190,7 +190,7 @@ Contoh penggunaannya
 ```php
 public function handle($request, Closure $next)
 {
-	$response = $next($request);
+    $response = $next($request);
 
     // menyimpan IP dan path yang telah diakses ke database
     DB::table('access_logs')->insert([
@@ -266,7 +266,7 @@ public function handle($request, Closure $next)
 
 public function terminate($request, $response)
 {
-	//Tulis kode untuk aksi pencatatan log disini
+    //Tulis kode untuk aksi pencatatan log disini
 }
 ```
 Method `terminate()` akan tetap dieksekusi meskipun `User` bukan `ROLE_ADMIN`
