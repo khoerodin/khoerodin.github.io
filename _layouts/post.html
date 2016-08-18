@@ -24,24 +24,27 @@ readmore: true
       {% when '11' %}November
       {% when '12' %}Desember
     {% endcase %}
-    {{ page.date | date: "%Y" }}
+    {{ page.date | date: "%Y" }}</time>
      • 
     {% assign words = content | number_of_words %}
     {% if words < 360 %}
       Waktu baca kurang dari 1 menit
     {% else %}
       Waktu baca {{ words | divided_by:180 }} menit
-    {% endif %}
-     • 
-    {% for tag in page.tags %}
-      <a href="/tag#{{ tag }}">#{{ tag }}</a>
-    {% endfor %}</time></p>
+    {% endif %}    
   </header>
 
   <div class="post-content" itemprop="articleBody">
     {{content}}
   </div>
   
+  <h3>Hashtags</h3>
+  <p>
+  {% for tag in page.tags %}
+    <a href="/tag#{{ tag }}">#{{ tag }}</a>
+  {% endfor %}
+  </p>
+
   <div class="related-posts">    
     <div id="related-posts">
 {% assign hasSimilar = '' %}
