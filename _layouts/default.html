@@ -12,26 +12,22 @@
   <script src="/assets/js/jquery.fitvids.js"></script>  
       <script>
         $(document).ready(function(){
-          // Target .container, .wrapper, .post, etc.
           $(".post").fitVids();
         });
       </script>
   {% seo %}
 </head>
 <body>
+  
+  {% include header.html %}
 
-  {% include navigation.html %}
-
-  {% if page.profile %}
-      {% include header.html %}
-  {% endif %}
-
-  <section id="wrapper" class="{% if page.profile %}home{% endif %}">
-    {{ content }}
-  </section>
-
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script src="/assets/js/main.js"></script>
-
+  <div class="page-content">
+    <div class="wrapper">
+      {{ content }}
+    </div>
+  </div>
+  
+  {% include footer.html %}
+  
 </body>
 </html>

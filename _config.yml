@@ -15,7 +15,7 @@ kramdown:
 
 paginate            : 5
 paginate_path       : /page/:num
-baseurl             : /
+baseurl             : 
 domain_name         : 'http://khoerodin.id'
 google_analytics    : '#'
 disqus_shortname    : 'khoerodin'
@@ -24,7 +24,7 @@ disqus_shortname    : 'khoerodin'
 url                 : 'http://khoerodin.id'
 author              : 'Khoerodin'
 
-permalink           : /:title/
+permalink           : :title/
 
 defaults:
     -

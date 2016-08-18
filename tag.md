@@ -11,34 +11,31 @@ to the `site_tags` variable. -->
 <!-- `tag_words` is a sorted array of the tag names. -->
 {% assign tag_words = site_tags | split:',' | sort %}
 
-<article class="post">
-    <header>
-        <h1>Tags</h1>
-    </header>
-  <!-- List of all tags -->
-  <tag class="tag">
+<div class="home">
+
+  <header class="post-header">
+    <h1 class="post-title">Tags</h1>
+  </header>
+  
+
+  <div style="border-bottom:1px solid #e8e8e8;margin-bottom:20px;">
     {% for item in (0..site.tags.size) %}{% unless forloop.last %}
       {% capture this_word %}{{ tag_words[item] }}{% endcapture %}
         <a href="#{{ this_word | cgi_escape }}">#{{ this_word }}</a>
     {% endunless %}{% endfor %}
-  </tag>
-  <hr>
-  <!-- Posts by Tag -->
-  <div>
-    {% for item in (0..site.tags.size) %}{% unless forloop.last %}
-      {% capture this_word %}{{ tag_words[item] }}{% endcapture %}
-      <h2 class="tag-title" id="{{ this_word | cgi_escape }}">#{{ this_word }}</h2>
-      {% for post in site.tags[this_word] %}{% if post.title != null %}
-        <div>
-          <span style="float: left;">
-            <a href="{{ post.url }}">{{ post.title }}</a>
-          </span>
-        </div>
-        <div style="clear: both;margin-bottom:15px;"></div>
-      {% endif %}{% endfor %}
-      <div style="margin-bottom:40px;"></div>
-    {% endunless %}{% endfor %}
   </div>
-</article>
+  
+  {% for item in (0..site.tags.size) %}{% unless forloop.last %}
+    {% capture this_word %}{{ tag_words[item] }}{% endcapture %}
+  <h2 class="tag-title" id="{{ this_word | cgi_escape }}">#{{ this_word }}</h2>
 
-{% include footer.html %}
+  <ul> 
+    {% for post in site.tags[this_word] %}{% if post.title != null %} 
+    <li>
+      <a class="" href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endif %}{% endfor %}
+  </ul>
+  {% endunless %}{% endfor %}
+
+</div>
