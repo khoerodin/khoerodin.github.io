@@ -42,7 +42,7 @@ Route::group(['middleware' => 'new-middleware'], function () {
 ```
 
 ### Controller
-Memanggil `middleware` dalam `controller`, Jika ingin berlaku pada semua `method` dalam `Controller`:
+Memanggil `middleware` dalam `controller`. Jika ingin berlaku pada semua `method` dalam `Controller`:
 
 ```php
 class MyController extends Controller
@@ -80,7 +80,7 @@ class NewMiddleware
 {
     public function handle($request, Closure $next)
     {
-        //letakkan kode disini...
+        //letakan kode disini...
     }
 }
 ```
