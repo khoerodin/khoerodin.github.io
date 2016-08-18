@@ -9,7 +9,6 @@ tags:
   - rvm
   - package
   - brightbox
-  - laravel
 published: true
 ---
 
