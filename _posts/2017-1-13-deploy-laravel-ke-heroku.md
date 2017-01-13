@@ -12,6 +12,8 @@ published: true
 
 Heroku merupakan _layanan cloud computing_ bertype <a href="https://rizkimufrizal.github.io/heroku-sebagai-komputasi-modern/" target="_blank">PaaS</a> _(Platform as a Service)_. Bagi para web developer lumayan lah versi gratisnya kalau hanya untuk sekedar demo aplikasi/website yang sedang dibangun.
 
+![Laravel with Heroku](https://raw.githubusercontent.com/khoerodin/khoerodin.github.io/master/assets/images/laravel_heroku.jpg "Laravel with Heroku")
+
 Sebelum dimulai, pastikan sudah punya akun Heroku ya, [baca ini dulu](https://devcenter.heroku.com/articles/getting-started-with-php "baca ini dulu").
 
 #### Siap? Ayo kita mulai...
