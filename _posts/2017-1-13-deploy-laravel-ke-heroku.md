@@ -34,9 +34,7 @@ $ git add .
 $ git commit -m "initial commit laravel to heroku"
 ```
 
-#### Deploy to Heroku
-
-Membuat Procfile
+#### Membuat Procfile
 
 ```
 $ echo web: vendor/bin/heroku-php-apache2 public/ > Procfile
