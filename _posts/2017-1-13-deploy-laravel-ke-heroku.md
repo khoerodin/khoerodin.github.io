@@ -74,6 +74,8 @@ $ heroku config:get CLEARDB_DATABASE_URL
 
 #### Set ENV variables
 
+Set .env variable sesuai kebutuhan Anda:
+
 ```
 // DB_HOST, DB_PORT, DB_DATABASE, 
 // DB_USERNAME dan DB_PASSWORD 
