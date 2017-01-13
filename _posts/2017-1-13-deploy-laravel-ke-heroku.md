@@ -78,6 +78,10 @@ $ heroku config:get CLEARDB_DATABASE_URL
 // DB_HOST, DB_PORT, DB_DATABASE, 
 // DB_USERNAME dan DB_PASSWORD 
 // diambil dari URL database yang didapatkan ketika install database addons
+// APP_LOG= errorlog : disarankan Heroku agar logging tidak ke laravel storage 
+// tapi ke Heroku
+// Heroku juga merekomendasikan Trusting the Load Balancer :
+// https://devcenter.heroku.com/articles/getting-started-with-laravel#trusting-the-load-balancer
 
 $ heroku config:set \
 APP_ENV=production \
