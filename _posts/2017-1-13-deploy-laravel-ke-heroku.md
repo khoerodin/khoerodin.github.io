@@ -14,7 +14,20 @@ Heroku merupakan _layanan cloud computing_ bertype <a href="https://rizkimufriza
 
 ![Laravel with Heroku](https://raw.githubusercontent.com/khoerodin/khoerodin.github.io/master/assets/images/laravel_heroku.jpg "Laravel with Heroku")
 
-Sebelum dimulai, pastikan sudah punya akun Heroku ya, [baca ini dulu](https://devcenter.heroku.com/articles/getting-started-with-php "baca ini dulu").
+Berikut environment yang saya pakai ketika membuat tulisan ini:
+
+1. Ubuntu 16.04 64-bit
+2. PHP 7.0.8
+3. Composer 1.3.1
+4. Git 2.7.4
+3. Laravel 5.3.*
+
+Sebelum dimulai, pastikan Anda telah memahami:
+
+1. Composser
+2. Cara install Laravel, konfigurasi .env variables dan migrasi database
+3. Git
+4. Punya akun Heroku
 
 #### Siap? Ayo kita mulai...
 
