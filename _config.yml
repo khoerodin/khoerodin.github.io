@@ -1,4 +1,4 @@
-name                : Khoerodin
+title               : Khoerodin
 description         : Bismillah, Berkah, Manfaat
 twitter             :
   username: khoerodin
@@ -44,3 +44,4 @@ gems:
   - jemoji
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-admin
