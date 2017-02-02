@@ -1,6 +1,6 @@
 ---
 title: Deploy Laravel Ke Heroku
-date: 2017-1-13
+date: 2017-01-13
 description: >-
   Langkah mudah deploy/install Laravel ke Heroku  
 tags:
