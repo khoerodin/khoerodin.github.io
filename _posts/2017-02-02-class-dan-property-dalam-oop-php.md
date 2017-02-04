@@ -1,7 +1,8 @@
 ---
 title: "#2. Class dan Property dalam OOP PHP"
 date: '2017-02-02 17:30:00'
-description: Artikel Seri Belajar Mudah OOP PHP, Apa itu Class dan Property dalam
+description: >-
+  Artikel Seri Belajar Mudah OOP PHP, Apa itu Class dan Property dalam
   OOP PHP ? Disini akan saya jelaskan...
 tags:
 - Belajar Mudah OOP PHP (Series)
@@ -27,7 +28,7 @@ class User {
 ```
 
 ## Property
-Property sebenarnya hanyalah sebuah *Variabel* yang terletak dalam sebuah Class. Dalam literatur yang lain Property disebut juga dengan *Attribute*. Cara penulisan Property ialah dengan didahului oleh Visibility keyword yaitu public atau protected atau private dan diikuti dengan penulisan Variable sebagaimana biasanya dalam PHP. Perhatikan contoh dibawah:
+Property sebenarnya hanyalah sebuah *Variable* yang terletak dalam sebuah Class. Dalam literatur yang lain Property disebut juga dengan *Attribute*. Cara penulisan Property ialah dengan didahului oleh Visibility keyword yaitu public atau protected atau private dan diikuti dengan penulisan Variable sebagaimana biasanya dalam PHP. Perhatikan contoh dibawah:
 
 ```
 class User {

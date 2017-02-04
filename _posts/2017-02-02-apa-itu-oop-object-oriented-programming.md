@@ -1,7 +1,8 @@
 ---
 title: "#1. Apa itu OOP (Object Oriented Programming) ?"
 date: '2017-02-02 11:01:55'
-description: Artikel Seri Belajar Mudah OOP PHP, Apa itu OOP? bagaimana mempelajari
+description: >-
+  Artikel Seri Belajar Mudah OOP PHP, Apa itu OOP? bagaimana mempelajari
   OOP dalam PHP bagaimana dan membuat website dengan konsep OOP PHP?
 tags:
 - Belajar Mudah OOP PHP (Series)
