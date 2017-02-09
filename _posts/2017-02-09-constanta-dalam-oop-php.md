@@ -10,7 +10,6 @@ published: true
 
 Dalam artikel ini kita akan belajar tentang *Constanta* dan *Method*. *Constanta* dan *Method* sama seperti *Property* yaitu merupakan bagian dari *Class*, maksudnya letaknya berada di dalam *Class*.
 
-## Constanta
 Dalam <a href="https://en.wikipedia.org/wiki/Constant_(computer_programming)" target="_blank">Wikipedia</a> dijelaskan Konstanta (constant) adalah suatu lokasi penyimpanan (dalam memory) yang berisikan nilai yang sifatnya tetap dan tidak bisa diubah sepanjang program berjalan. 
 
 Cara penamaan *Constanta* sama seperti *variable* yaitu diawali dengan huruf atau underscore untuk karakter pertama, kemudian boleh diikuti dengan huruf, underscore atau angka untuk karakter kedua dan selanjutnya.
