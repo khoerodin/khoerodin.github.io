@@ -30,4 +30,4 @@ Untuk memperlajari OOP, tentunya harus faham terlebih dahulu dasar-dasar pemrogr
 
 Jika sudah faham dasar-dasar pemrograman silakan lanjut baca, bagi yang belum tolong stop sampai disini dan silakan belajar terlebih dahulu, karena jika dipaksa baca malah akan bingung sendiri. Pada tulisan berikutnya akan dibahas OOP dalam PHP :smiley:
 
-Oya ini adalah artikel berseri [Belajar Mudah OOP PHP](http://khoerodin.id/tag/#Belajar+Mudah+OOP+PHP+%28Series%29).
+Oya ini adalah artikel berseri [#BelajarOOPPHP](http://khoerodin.id/tag/#BelajarOOPPHP).
