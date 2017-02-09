@@ -4,7 +4,7 @@ date: '2017-02-09 14:12:00'
 description: Artikel Seri Belajar Mudah OOP PHP, Apa itu Constanta dan Method dalam
   PHP ? Di sini akan saya jelaskan...
 tags:
-- Belajar Mudah OOP PHP (Series)
+- BelajarOOPPHP
 published: true
 ---
 
@@ -61,4 +61,4 @@ PHP_VERSION, PHP_MAJOR_VERSION, PHP_MINOR_VERSION, PHP_RELEASE_VERSION, PHP_VERS
 
 Lebih lengkapnya bisa dibuka di website resmi PHP <a href="http://php.net/manual/en/reserved.constants.php" target="_blank">disini</a>.
 
-Sampai disini dulu ya... ikuti terus <a href="https://khoerodin.id/tag/#Belajar+Mudah+OOP+PHP+%28Series%29">#Belajar Mudah OOP PHP (Series)</a> :grin:
+Sampai disini dulu ya... ikuti terus <a href="https://khoerodin.id/tag/#BelajarOOPPHP">#BelajarOOPPHP</a> :grin:

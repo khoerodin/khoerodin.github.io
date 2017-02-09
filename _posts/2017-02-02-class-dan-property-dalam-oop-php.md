@@ -5,7 +5,7 @@ description: >-
   Artikel Seri Belajar Mudah OOP PHP, Apa itu Class dan Property dalam
   OOP PHP ? Di sini akan saya jelaskan...
 tags:
-- Belajar Mudah OOP PHP (Series)
+- BelajarOOPPHP
 published: true
 ---
 

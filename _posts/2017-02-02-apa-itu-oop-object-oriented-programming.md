@@ -5,7 +5,7 @@ description: >-
   Artikel Seri Belajar Mudah OOP PHP, Apa itu OOP? bagaimana mempelajari
   OOP dalam PHP bagaimana dan membuat website dengan konsep OOP PHP?
 tags:
-- Belajar Mudah OOP PHP (Series)
+- BelajarOOPPHP
 published: true
 ---
 
