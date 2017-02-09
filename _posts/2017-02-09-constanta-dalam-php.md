@@ -1,8 +1,8 @@
 ---
-title: "#3. Constanta dalam OOP PHP"
+title: "#3. Constanta dalam PHP"
 date: '2017-02-09 14:12:00'
 description: Artikel Seri Belajar Mudah OOP PHP, Apa itu Constanta dan Method dalam
-  OOP PHP ? Di sini akan saya jelaskan...
+  PHP ? Di sini akan saya jelaskan...
 tags:
 - Belajar Mudah OOP PHP (Series)
 published: true
