@@ -6,7 +6,7 @@ description: >-
   OOP PHP ? Disini akan saya jelaskan...
 tags:
 - Belajar Mudah OOP PHP (Series)
-published: 'true'
+published: true
 ---
 
 Setelah dalam[ artikel sebelumnya](http://khoerodin.id/apa-itu-oop-object-oriented-programming/) membahas apa itu OOP, kali ini akan coba saya jelaskan apa itu Class dan Property.
