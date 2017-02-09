@@ -6,7 +6,7 @@ description: >-
   OOP dalam PHP bagaimana dan membuat website dengan konsep OOP PHP?
 tags:
 - Belajar Mudah OOP PHP (Series)
-published: 'true'
+published: true
 ---
 
 Kali ini saya akan menulis tentang OOP (Object Oriented Programming), dan dalam tulisan-tulisan selanjutnya akan lebih spesifik ke OOP dalam PHP.
