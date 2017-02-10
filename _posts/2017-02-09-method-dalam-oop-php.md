@@ -17,12 +17,12 @@ Berikut contoh *Method*:
 
 ```
 class User {
-	public function registerUser()
+	public function showBio()
 	{
 		//
 	}
 
-	private function editUser($id)
+	private function showAddress()
 	{
 		//
 	}

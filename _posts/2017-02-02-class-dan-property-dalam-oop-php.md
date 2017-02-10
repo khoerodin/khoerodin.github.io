@@ -32,10 +32,10 @@ Property sebenarnya hanyalah sebuah *Variable* yang terletak dalam sebuah Class.
 
 ```
 class User {
-	var $name;
+    var $name;
     public $username;
     protected $brithdate;
     private $address;
 }
 ```
-terus itu Visibility keyword dalam property untuk apa? sabar..... akan dibahas dalam artikel tersendiri kok :smiley:
+terus itu *visibility keyword* dalam property untuk apa? sabar..... akan dibahas dalam artikel tersendiri kok :smiley:
