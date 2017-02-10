@@ -1,5 +1,5 @@
 ---
-title: "#4. Method dalam OOP PHP"
+title: "#3. Method dalam OOP PHP"
 date: '2017-02-09 19:00:00'
 description: Artikel Seri Belajar Mudah OOP PHP, Apa itu Method dalam OOP PHP ? Di sini akan saya jelaskan...
 tags:
