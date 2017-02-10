@@ -1,5 +1,5 @@
 ---
-title: "#5. Penjelasan Object dalam OOP PHP"
+title: "#4. Penjelasan Object dalam OOP PHP"
 date: '2017-02-10 15:30:00'
 description: Artikel Seri Belajar Mudah OOP PHP, Apa itu Object dalam OOP PHP ? Di sini akan saya jelaskan...
 tags:
