@@ -28,14 +28,15 @@ class User {
 ```
 
 ## Property
-Property sebenarnya hanyalah sebuah *Variable* yang terletak dalam sebuah Class. Dalam literatur yang lain Property disebut juga dengan *Attribute*. Cara penulisan Property ialah dengan didahului oleh Visibility keyword yaitu public atau protected atau private dan diikuti dengan penulisan nama Variable sebagaimana biasanya dalam PHP yaitu diawali dengan huruf atau underscore untuk karakter pertama, kemudian boleh diikuti dengan huruf, underscore atau angka untuk karakter kedua dan selanjutnya. Perhatikan contoh di bawah:
+Property sebenarnya hanyalah sebuah *Variable* yang terletak dalam sebuah Class. Dalam literatur yang lain Property disebut juga dengan *Attribute*. Cara penulisan Property ialah dengan didahului oleh **var** atau **visibility keyword** yaitu **public** atau **protected** atau **private** dan diikuti dengan penulisan nama Variable sebagaimana biasanya dalam PHP yaitu diawali dengan huruf atau underscore untuk karakter pertama, kemudian boleh diikuti dengan huruf, underscore atau angka untuk karakter kedua dan selanjutnya. Perhatikan contoh di bawah:
 
 ```
 class User {
 	private $id;
-	public $username;
 	public $name;
+	public $username;
 	public $email;
+	var $brithdate;
 }
 ```
-terus itu Visibility keyword dalam property untuk apa? sabar..... akan dibahas dalam artikel selanjutnya :smiley:
+terus itu Visibility keyword dalam property untuk apa? sabar..... akan dibahas dalam artikel tersendiri kok :smiley:
