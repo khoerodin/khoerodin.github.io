@@ -1,15 +1,13 @@
 ---
-title: "#3. Constanta dalam PHP"
+title: "Constanta dalam PHP"
 date: '2017-02-09 14:12:00'
-description: Artikel Seri Belajar Mudah OOP PHP, Apa itu Constanta dalam PHP ? Di sini akan saya jelaskan...
+description: Artikel Belajar Mudah PHP, Apa itu Constanta dalam PHP ? Di sini akan saya jelaskan...
 tags:
-- BelajarOOPPHP
+- PHP
 published: true
 ---
 
-Dalam artikel ini kita akan belajar tentang *Constanta* dan *Method*. *Constanta* dan *Method* sama seperti *Property* yaitu merupakan bagian dari *Class*, maksudnya letaknya berada di dalam *Class*.
-
-Dalam <a href="https://en.wikipedia.org/wiki/Constant_(computer_programming)" target="_blank">Wikipedia</a> dijelaskan Konstanta (constant) adalah suatu lokasi penyimpanan (dalam memory) yang berisikan nilai yang sifatnya tetap dan tidak bisa diubah sepanjang program berjalan. 
+Dalam artikel ini kita akan belajar tentang *Constanta*. Dalam <a href="https://en.wikipedia.org/wiki/Constant_(computer_programming)" target="_blank">Wikipedia</a> dijelaskan Konstanta (constant) adalah suatu lokasi penyimpanan (dalam memory) yang berisikan nilai yang sifatnya tetap dan tidak bisa diubah sepanjang program berjalan. 
 
 Cara penamaan *Constanta* sama seperti *variable* yaitu diawali dengan huruf atau underscore untuk karakter pertama, kemudian boleh diikuti dengan huruf, underscore atau angka untuk karakter kedua dan selanjutnya.
 
@@ -60,4 +58,4 @@ PHP_VERSION, PHP_MAJOR_VERSION, PHP_MINOR_VERSION, PHP_RELEASE_VERSION, PHP_VERS
 
 Lebih lengkapnya bisa dibuka di website resmi PHP <a href="http://php.net/manual/en/reserved.constants.php" target="_blank">disini</a>.
 
-Sampai disini dulu ya... ikuti terus <a href="https://khoerodin.id/tag/#BelajarOOPPHP">#BelajarOOPPHP</a> :grin:
+Sampai disini dulu ya... :grin:
