@@ -15,7 +15,7 @@ Semua sifat-sifat Function bisa diterapkan ke dalam *Method*, seperti parameter,
 
 Berikut contoh *Method*:
 
-```
+```php
 class User {
 	public function showBio()
 	{
