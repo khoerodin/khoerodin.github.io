@@ -132,8 +132,7 @@ code {
   padding: 1px 5px; }
 
 pre {
-  overflow: auto;
-  white-space: pre-wrap; }
+  overflow-y: auto; }
   pre > code {
     border: 0;
     padding-right: 0;
