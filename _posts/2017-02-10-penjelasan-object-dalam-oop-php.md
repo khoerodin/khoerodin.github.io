@@ -21,6 +21,7 @@ class User {
         echo "<b>Salam...</b><br />Semoga sehat selalu... :)";
     }
 }
+
 // buat objek dari class User (instansiasi)
 $Khoerodin = new User();
 
