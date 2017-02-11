@@ -132,13 +132,18 @@ code {
   padding: 1px 5px; }
 
 pre {
-  overflow: auto;
+  overflow-x: auto;
   white-space: pre-wrap; }
   pre > code {
     border: 0;
     padding-right: 0;
     padding-left: 0; }
-
+.hljs {
+    display: inline-block;
+    overflow-x: scroll;
+    /*padding: 0.5em;*/
+    /*padding-right: 100%;*/
+}
 /**
  * Wrapper
  */
