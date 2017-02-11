@@ -132,7 +132,7 @@ code {
   padding: 1px 5px; }
 
 pre {
-  overflow-y: auto; }
+  overflow: auto; }
   pre > code {
     border: 0;
     padding-right: 0;
