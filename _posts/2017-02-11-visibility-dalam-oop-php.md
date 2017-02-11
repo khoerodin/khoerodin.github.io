@@ -1,7 +1,7 @@
 ---
-title: "#6. Visibility dalam OOP PHP"
-date: '2017-02-10 18:38:00'
-description: Artikel Seri Belajar Mudah OOP PHP, Apa itu Visibility dalam OOP PHP ? Di sini akan saya jelaskan...
+title: "#6. Enkapsulasi (Public, Protected, Private) pada OOP PHP"
+date: '2017-02-10 20:38:00'
+description: Artikel Seri Belajar Mudah OOP PHP, Apa itu Enkapsulasi (Public, Protected, Private) dalam OOP PHP ? Di sini akan saya jelaskan...
 tags:
 - BelajarOOPPHP
 published: false
