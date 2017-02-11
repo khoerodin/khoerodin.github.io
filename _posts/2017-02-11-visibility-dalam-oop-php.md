@@ -18,7 +18,7 @@ Berikut penjelasan untuk masing-masing dari ketiga visibility keyword:
 ### Property Visibility
 Property harus didefinisikan sebagai public, protected atau private, jika dideklarasikan menggunakan **var** maka otomatis didefinisikan sebagai public.
 
-```
+```php
 class User {
     public $name = 'Khoerodin';
     protected $username = 'khoerodin';

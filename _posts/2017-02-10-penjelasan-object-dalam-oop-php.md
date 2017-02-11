@@ -9,7 +9,7 @@ published: true
 
 **Object** adalah hasil konkrit atau *hasil cetakan* dari sebuah **class**. Sebagai contoh pada artikel sebelumnya saya telah membuat **Class User** maka object-nya adalah para User atau *account*, misalnya *Khoerodin*, *Andi* dan *Bagus*. Berikut contohnya, silakan praktekkan di komputer masing-masing ya, karena akan lebih faham jika dipraktekkan :smile:
 
-```
+```php
 class User {
     var $name;
     var $username;
@@ -67,14 +67,14 @@ echo "<br /><br />";
 
 Mari kita bahas satu persatu.. :smile:
 
-```
+```php
 class User {
 ...
 ```
 
 Ini adalah mendefinisikan **Class** baru dengan nama **User**, diikuti pembuka kurung kurawal untuk mengawali Class dan tentunya pada baris terakhir ditutup oleh penutup kurung kurawal.
 
-```
+```php
 ...
     var $name;
     var $username;
@@ -85,7 +85,7 @@ Ini adalah mendefinisikan **Class** baru dengan nama **User**, diikuti pembuka k
 
 Baris selanjutnya ialah mendefinisikan property, dengan didahului menggunakan keyword **var**. Selain keyword **var** bisa saja menggunakan keyword **public** atau **protected** atau **private**, tapi di sini saya menggunakan **var**. Dalam artikel ini bisa kita abaikan saja pertanyaan *Apa sih fungsi var, public, protected dan private?* Karena bahasan mengenai keyword **public**, **protected** dan **private** akan dibahas dalam artikel tersendiri yaitu tentang **pewarisan**.
 
-```
+```php
 ...
     function showSalam()
     {
@@ -96,7 +96,7 @@ Baris selanjutnya ialah mendefinisikan property, dengan didahului menggunakan ke
 
 Ini adalah **method**, seperti yang sudah saya jelaskan pada <a href="https://khoerodin.id/method-dalam-oop-php/" target="_blank">artikel yang lain</a>.
 
-```
+```php
 ...
 $Khoerodin = new User();
 ...
@@ -104,7 +104,7 @@ $Khoerodin = new User();
 
 Nah ini adalah **instansiasi** yaitu cara membuat **object** dari sebuah **class** yang dalam hal ini yaitu class `User`.
 
-```
+```php
 ...
 $Khoerodin->name = "Khoerodin";
 $Khoerodin->username = "khoerodin";
@@ -115,7 +115,7 @@ $Khoerodin->address = "Ciamis, Indonesia";
 
 Baris berikutnya yaitu memberikan nilai kepada `property` yang berada dalam obejct **Khoerodin**
 
-```
+```php
 ...
 echo "<b>Name:</b> " . $Khoerodin->name;
 echo "<br />";
@@ -128,7 +128,7 @@ echo "<br /><br />";
 
 Selanjutnya yaitu memanggil property yang isinya menampilkan nilai yaitu berupa nilai yang telah diberikan kepada **property dalam method Khoerodin**.
 
-```
+```php
 ...
 echo $Khoerodin->showSalam();
 ...

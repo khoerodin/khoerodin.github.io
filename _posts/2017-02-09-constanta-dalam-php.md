@@ -18,7 +18,7 @@ Cara mendefinisikan *Constanta* ada dua macam dalam PHP, yaitu
 
 Pendefinisian *Constanta* menggunakan keyword **const** hanya dapat digunakan pada top-level scope, yakni harus dalam lingkungan global PHP. Sehingga kita tidak bisa menggunakan **const** di dalam function, loop, atau kondisi if.
 
-```
+```php
 const blog = "khoerodin.id";
 echo blog;  // khoerodin.id
 ```
@@ -27,7 +27,7 @@ echo blog;  // khoerodin.id
 
 Jika ingin mendefinisikan *Constanta* di dalam fungsi maka harus menggunakan **define**.
 
-```
+```php
 define("blog", "khoerodin.id");
 echo blog;  // khoerodin.id
 ```
@@ -41,7 +41,7 @@ Namun para programmer PHP **menganjurkan** menggunakan **huruf kapital semua** d
 
 Sebagaimana dijelaskan di atas, *Constanta* sifatnya tetap dan tidak bisa diubah sepanjang program berjalan. contoh:
 
-```
+```php
 define("USER", "Khoerodin");
 echo USER . "<br />"; 
 define("USER", "MUKIDI");
@@ -52,7 +52,7 @@ jika code di atas tetap dijalankan maka akan keluar error.
 ### Predefined Constants
 PHP sendiri juga telah membawa *Constanta* bawaaan atau *Predefined Constants* atau *Reserved Constants*, artinya terdapat *Constanta* yang bawaan yang tidak boleh didefinisikan kembali oleh programmer. Contoh beberapa *Predefined Constants* adalah 
 
-```
+```php
 PHP_VERSION, PHP_MAJOR_VERSION, PHP_MINOR_VERSION, PHP_RELEASE_VERSION, PHP_VERSION_ID, PHP_EXTRA_VERSION, PHP_ZTS, PHP_DEBUG, PHP_MAXPATHLEN, PHP_OS, PHP_SAPI, PHP_EOL, PHP_INT_MAX, PHP_INT_SIZE, DEFAULT_INCLUDE_PATH, PEAR_INSTALL_DIR, PEAR_EXTENSION_DIR, PHP_EXTENSION_DIR, PHP_PREFIX, PHP_BINDIR, PHP_BINARY, PHP_MANDIR, PHP_LIBDIR, PHP_DATADIR, __LINE__ , __FILE__ , __DIR__ , __FUNCTION__ , __CLASS__ , __TRAIT__ , __METHOD__, __NAMESPACE__
 ```
 

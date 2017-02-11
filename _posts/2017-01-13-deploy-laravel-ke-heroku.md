@@ -33,7 +33,7 @@ Sebelum dimulai, pastikan Anda telah memahami:
 
 Buat project Laravel seperti biasa
 
-```
+```bash
 $ laravel new herovel
 ...
 $ cd herovel
@@ -41,7 +41,7 @@ $ cd herovel
 
 #### Initialize Git
 
-```
+```bash
 $ git init
 $ git add .
 $ git commit -m "initial commit laravel to heroku"
@@ -49,7 +49,7 @@ $ git commit -m "initial commit laravel to heroku"
 
 #### Membuat Procfile
 
-```
+```bash
 $ echo web: vendor/bin/heroku-php-apache2 public/ > Procfile
 $ git add .
 $ git commit -m "procfile for heroku"
@@ -57,13 +57,13 @@ $ git commit -m "procfile for heroku"
 
 #### Create Heroku Apps
 
-```
+```bash
 $ heroku create
 ```
 
 #### Install Database Addons
 
-```
+```bash
 // Jika menggunakan PostgreSQL
 $ heroku addons:create heroku-postgresql:hobby-dev
 
@@ -74,7 +74,7 @@ $ heroku config:get DATABASE_URL
 // postgres://username:password@host:port/database_name
 ```
 
-```
+```bash
 // Jika menggunakan MySQL
 $ heroku addons:create cleardb:ignite
 
@@ -89,7 +89,7 @@ $ heroku config:get CLEARDB_DATABASE_URL
 
 Set .env variables sesuai kebutuhan Anda:
 
-```
+```bash
 // DB_CONNECTION ganti sesuai dengan yang Anda pakai
 // DB_HOST, DB_PORT, DB_DATABASE, 
 // DB_USERNAME dan DB_PASSWORD 
@@ -114,13 +114,13 @@ DB_PASSWORD=password
 
 #### Push to Heroku and Migrate
 
-```
+```bash
 $ git push heroku master
 $ heroku run php artisan migrate
 ```
 
 #### Open Apps
-```
+```bash
 $ heroku open
 ```
 Otomatis browser akan membuka aplikasi Heroku,
