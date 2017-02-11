@@ -16,21 +16,9 @@ class User {
     var $brithdate;
     var $address;
 
-  function showBio()
+  	function showSalam()
     {
-        echo "<b>Show Bio</b><br />";
-        echo "<b>Name:</b> " . $this->name;
-        echo "<br />";
-        echo "<b>Username:</b> " .$this->username;
-        echo "<br />";
-        echo "<b>Brithdate:</b> " .$this->brithdate;
-        echo "<br />";
-    }
-
-    function showAddress()
-    {
-        echo "<b>Show Address</b><br />";
-        echo $this->address;
+        echo "<b>Salam...</b><br />Semoga sehat selalu... :)";
     }
 }
 // buat objek dari class User (instansiasi)
@@ -51,9 +39,7 @@ echo "<b>Brithdate:</b> " .$Khoerodin->brithdate;
 echo "<br /><br />";
   
 // tampilkan method
-echo $Khoerodin->showBio();
-echo "<br />";
-echo $Khoerodin->showAddress();
+echo $Khoerodin->showSalam();
 echo "<br /><br />";
 
 // sekarang buat object Andi
@@ -74,11 +60,82 @@ echo "<b>Brithdate:</b> " .$Andi->brithdate;
 echo "<br /><br />";
 
 // tampilkan method
-echo $Andi->showBio();
-echo "<br />";
-echo $Andi->showAddress();
+echo $Andi->showSalam();
 echo "<br /><br />";
 ```
 
-Hasilnya akan seperti ini
+Mari kita bahas satu persatu.. :smile:
+
+```
+class User {
+...
+```
+
+Ini adalah mendefinisikan **Class** baru dengan nama **User**, diikuti pembuka kurung kurawal untuk mengawali Class dan tentunya pada baris terakhir ditutup oleh penutup kurung kurawal.
+
+```
+...
+    var $name;
+    var $username;
+    var $brithdate;
+    var $address;
+...
+```
+
+Baris selanjutnya ialah mendefinisikan property, dengan didahului menggunakan keyword **var**. Selain keyword **var** bisa saja menggunakan keyword **public** atau **protected** atau **private**, tapi di sini saya menggunakan **var**. Dalam artikel ini bisa kita abaikan saja pertanyaan *Apa sih fungsi var, public, protected dan private?* Karena bahasan mengenai keyword **public**, **protected** dan **private** akan dibahas dalam artikel tersendiri yaitu tentang **pewarisan**.
+
+```
+...
+	function showSalam()
+    {
+        echo "<b>Salam...</b><br />Semoga sehat selalu... :)";
+    }
+...
+```
+
+Ini adalah **method**, seperti yang sudah saya jelaskan pada <a href="https://khoerodin.id/method-dalam-oop-php/" target="_blank">artikel yang lain</a>.
+
+```
+...
+$Khoerodin = new User();
+...
+```
+
+Nah ini adalah **instansiasi** yaitu cara membuat **object** dari sebuah **class** yang dalam hal ini yaitu class `User`.
+
+```
+...
+$Khoerodin->name = "Khoerodin";
+$Khoerodin->username = "khoerodin";
+$Khoerodin->brithdate = "01 Januari 2017";
+$Khoerodin->address = "Ciamis, Indonesia";
+...
+```
+
+Baris berikutnya yaitu memberikan nilai kepada `property` yang berada dalam obejct **Khoerodin**
+
+```
+...
+echo "<b>Name:</b> " . $Khoerodin->name;
+echo "<br />";
+echo "<b>Username:</b> " .$Khoerodin->username;
+echo "<br />";
+echo "<b>Brithdate:</b> " .$Khoerodin->brithdate;
+echo "<br /><br />";
+...
+```
+
+Selanjutnya yaitu memanggil property yang isinya menampilkan nilai yaitu berupa nilai yang telah diberikan kepada **property dalam method Khoerodin**.
+
+```
+...
+echo $Khoerodin->showSalam();
+...
+```
+
+Ini untuk memanggil method **showSalam()** dari class **Khoerodin**.
+
+### Objek Sebagai Entitas Terpisah
+Setiap objek merupakan bagian terpisah, pada contoh baris `code` di atas kita membuat object baru yaitu obejct **Andi**. Sama seperti object **Khoerodin** object **Andi** ini juga berasal dari satu class yang sama yaitu class **User**. Semua method dan property dalam obejct **Andi** akan sama persis dengan method dan property dalam object **Khoerodin**. Tapi object **Khoerodin** dan object **Andi** merupakan entitas berbeda atau terpisah, sehigga kita bisa memberikan nilai yang berbeda pada masing-masing object sebagaimana contoh dalam baris `code`. Coba deh jalankan baris `code` di atas biar lebih gamblang dan nanti hasilnya harusnya gini:
+
 ![Contoh Object PHP](https://raw.githubusercontent.com/khoerodin/khoerodin.github.io/master/assets/images/object-php.png "Contoh Object PHP")
