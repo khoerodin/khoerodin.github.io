@@ -16,7 +16,7 @@ class User {
     var $brithdate;
     var $address;
 
-      function showSalam()
+    function showSalam()
     {
         echo "<b>Salam...</b><br />Semoga sehat selalu... :)";
     }
