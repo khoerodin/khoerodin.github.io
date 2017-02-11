@@ -11,14 +11,14 @@ highlighter         : rouge
 kramdown:
   # use Github Flavored Markdown
   input: GFM
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    css_class: 'highlight'
-    span:
-      line_numbers: false
-    block:
-      line_numbers: false
-      start_line: 1
+  # syntax_highlighter: rouge
+  # syntax_highlighter_opts:
+    # css_class: 'highlight'
+    # span:
+      # line_numbers: false
+    # block:
+      # line_numbers: false
+      # start_line: 1
   # do not replace newlines by <br>s
   hard_wrap: false
 
