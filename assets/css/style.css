@@ -137,11 +137,10 @@ pre {
   pre > code {
     border: 0;
     padding-right: 0;
-    padding-left: 0; }
-.hljs {
-    white-space: pre;
-    overflow-x: auto;
-}
+    padding-left: 0; 
+    -ms-overflow-x: scroll;
+    overflow-x: scroll; }
+
 /**
  * Wrapper
  */
