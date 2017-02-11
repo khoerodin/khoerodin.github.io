@@ -30,8 +30,7 @@ body {
  */
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
-ul, ol, dl, figure,
-.highlight {
+ul, ol, dl, figure {
   margin-bottom: 15px; }
 
 hr {
@@ -127,14 +126,13 @@ blockquote {
 pre,
 code {
   font-size: 15px;
-  border: 1px solid #e8e8e8;
   border-radius: 3px; }
 
 code {
   padding: 1px 5px; }
 
 pre {
-  padding: 8px 12px;
+  padding: 10px 10px 0px 10px;
   overflow-x: auto;
   white-space: pre-wrap; }
   pre > code {
