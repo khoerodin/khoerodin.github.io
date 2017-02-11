@@ -138,8 +138,7 @@ pre {
     border: 0;
     padding-right: 0;
     padding-left: 0; 
-    -ms-overflow-x: scroll;
-    overflow-x: scroll; }
+    white-space: pre-wrap; }
 
 /**
  * Wrapper
