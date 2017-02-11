@@ -16,7 +16,7 @@ class User {
     var $brithdate;
     var $address;
 
-  	function showSalam()
+      function showSalam()
     {
         echo "<b>Salam...</b><br />Semoga sehat selalu... :)";
     }
@@ -87,7 +87,7 @@ Baris selanjutnya ialah mendefinisikan property, dengan didahului menggunakan ke
 
 ```
 ...
-	function showSalam()
+    function showSalam()
     {
         echo "<b>Salam...</b><br />Semoga sehat selalu... :)";
     }
