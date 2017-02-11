@@ -128,7 +128,8 @@ code {
   border-radius: 3px; }
 
 code {
-  padding: 1px 5px; }
+  padding: 1px 5px;
+  background: #efefef; }
 
 pre {
   overflow: auto; }
