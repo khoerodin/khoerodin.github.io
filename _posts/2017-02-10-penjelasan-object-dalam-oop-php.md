@@ -102,7 +102,7 @@ $Khoerodin = new User();
 ...
 ```
 
-Nah ini adalah **instansiasi** yaitu cara membuat **object** dari sebuah **class** yang dalam hal ini yaitu class `User`.
+Nah ini adalah **instansiasi object** yaitu cara membuat **object** dari sebuah **class** yang dalam hal ini yaitu class `User`.
 
 ```php
 ...
