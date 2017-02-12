@@ -17,15 +17,15 @@ Berikut contoh *method*:
 
 ```php
 class User {
-	public function showBio()
-	{
-		//
-	}
+  public function showBio()
+  {
+  	// isi method disini
+  }
 
-	private function showAddress()
-	{
-		//
-	}
+  private function showAddress()
+  {
+  	// isi method disini
+  }
 }
 ```
 
