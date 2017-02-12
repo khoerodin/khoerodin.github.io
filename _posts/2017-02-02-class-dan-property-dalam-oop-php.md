@@ -20,10 +20,10 @@ Simplenya *class* adalah *blueprint* dari *object*. *Class* digunakan sebagai ke
 // dan diakhiri kurung kurawal tutup
 
 class User {
-	// isi class nanti di sini
-	// isi dari class bisa property dan method
-	// property dan method akan dijelaskan kok
-	// jangan khawatir...
+  // isi class nanti di sini
+  // isi dari class bisa property dan method
+  // property dan method akan dijelaskan kok
+  // jangan khawatir...
 }
 ```
 
