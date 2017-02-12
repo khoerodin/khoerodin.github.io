@@ -64,7 +64,7 @@ $objek = new User();
 echo $objek::JK; // Mulai PHP 5.3.0
 ```
 
-**3. Akses dari variable yang ber-value sebuah class**
+**3. Akses dari variable yang ber-value nama sebuah class**
 
 Nama *class* terlebih dahulu dijadikan *variable value*.
 
