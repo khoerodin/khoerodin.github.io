@@ -9,7 +9,7 @@ tags:
 published: true
 ---
 
-Kali ini saya akan menulis tentang OOP (Object Oriented Programming), dan dalam tulisan-tulisan selanjutnya akan lebih spesifik ke OOP dalam PHP.
+Kali ini saya akan menulis tentang OOP *(Object Oriented Programming)*, dan dalam tulisan-tulisan selanjutnya akan lebih spesifik ke OOP dalam PHP.
 
 Dalam [Wikipdia](http://https://id.wikipedia.org/wiki/Pemrograman_berorientasi_objek) dijelaskan :
 

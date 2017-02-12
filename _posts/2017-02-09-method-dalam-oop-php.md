@@ -7,13 +7,13 @@ tags:
 published: true
 ---
 
-**Method** adalah tindakan atau aksi dari suatu *Class*. Pada <a href="https://khoerodin.id/class-dan-property-dalam-oop-php/" target="_blank">artikel sebelumnya</a> pernah diberikan contoh *Class* **User**, maka contoh methodnya adalah **register user**, **edit user**, **delete user**, **follow user** dan method-method atau aksi-aksi lain yang diinginkan untuk diterapkan dalam *class* User.
+**Method** adalah tindakan atau aksi dari suatu *class*. Pada <a href="https://khoerodin.id/class-dan-property-dalam-oop-php/" target="_blank">artikel sebelumnya</a> pernah diberikan contoh *class* `User`, maka contoh methodnya adalah **register user**, **edit user**, **delete user**, **follow user** dan *method-method* atau aksi-aksi lain yang diinginkan untuk diterapkan dalam *class* `User`.
 
-Mudahnya *Method* adalah **Function** yang berada di dalam suatu *Class*. Ketika membuat *Function* di luar *Class/Object* maka disebut *Function*, namun ketika membuat *Function* di dalam *Class/Object* maka disebut *Method*. 
+Mudahnya *method* adalah **function** yang berada di dalam suatu *class*. Ketika membuat *function* di luar *class/object* maka disebut *function*, namun ketika membuat *function* di dalam *class/object* maka disebut *method*. 
 
-Semua sifat-sifat Function bisa diterapkan ke dalam *Method*, seperti parameter, mengembalikan nilai (akan dibahas pada artikel selanjutnya), dan lain-lain. *Method* juga seperti *Property* yaitu bisa memiliki salah satu *Visibility Keyword* Public atau Protected atau Private. 
+Semua sifat-sifat *function* bisa diterapkan ke dalam *method*, seperti parameter, mengembalikan nilai (akan dibahas pada artikel selanjutnya), dan lain-lain. *method* juga seperti *property* yaitu bisa memiliki salah satu *visibility keyword: Public atau Protected* atau *Private*. 
 
-Berikut contoh *Method*:
+Berikut contoh *method*:
 
 ```php
 class User {
@@ -29,4 +29,4 @@ class User {
 }
 ```
 
-Cukup disini tentang **Method**, semangat ganss... :muscle: :muscle: :muscle: dan ikuti terus <a href="https://khoerodin.id/tag/#BelajarOOPPHP" target="_blank">#BelajarOOPPHP</a>.
+Cukup disini tentang *method*, semangat ganss... :muscle: :muscle: :muscle: dan ikuti terus <a href="https://khoerodin.id/tag/#BelajarOOPPHP" target="_blank">#BelajarOOPPHP</a>.
