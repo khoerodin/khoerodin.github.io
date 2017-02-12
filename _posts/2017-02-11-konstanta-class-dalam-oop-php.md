@@ -7,7 +7,7 @@ tags:
 published: true
 ---
 
-Konstanta Class atau **Class Constants** dapat juga didefinisikan di dalam sebuah *Class* dan sama seperti <a href="https://khoerodin.id/konstanta-dalam-php/" target="_blank">konstanta regular</a> konstanta *class* juga tidak dapat diubah nilainya. Nilai atau *value* dari konstanta harus berupa ekspresi *konstan* atau ekspresi tetap yaitu bukan merupakan *variable*, *property* atau *function* dan lain-lain.
+Konstanta Class atau **_Class Constants_** dapat juga didefinisikan di dalam sebuah *Class* dan sama seperti <a href="https://khoerodin.id/konstanta-dalam-php/" target="_blank">konstanta *regular*</a> konstanta *class* juga tidak dapat diubah nilainya. Nilai atau *value* dari konstanta harus berupa ekspresi *konstan* atau ekspresi tetap yaitu bukan merupakan *variable*, *property* atau *function* dan lain-lain.
 
 ### Mendefinisikan Konstanta Class
 Berikut cara mendefinisikan konstanta dalam sebuah *class*
@@ -91,7 +91,7 @@ class User {
 }
 ```
 
-Mulai PHP 7.1.0 **Visibility Modifier** juga bisa ditambahkan ke Konstanta *Class*.
+Mulai PHP 7.1.0 **_Visibility Modifier_** juga bisa ditambahkan ke Konstanta *Class*.
 
 ```php
 class User {
@@ -105,4 +105,4 @@ echo User::PENDIDIKAN;
 
 Jika kode diatas dijalankan pasti akan error, karena `const PENDIDIKAN` adalah `private`.
 
-Apa sih *Visibility Modifier* ? akan dijelaskan kok dalam artikel tersendiri tentang **encapsulation**, mungkin kali ini bisa diabaikan tentang *Visibility Modifier*.
+Apa sih *Visibility Modifier* ? akan dijelaskan kok dalam artikel tersendiri tentang **_encapsulation_**, mungkin kali ini bisa diabaikan tentang *Visibility Modifier*.
