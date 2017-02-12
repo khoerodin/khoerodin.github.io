@@ -11,7 +11,7 @@ published: true
 
 Mudahnya *method* adalah **function** yang berada di dalam suatu *class*. Ketika membuat *function* di luar *class/object* maka disebut *function*, namun ketika membuat *function* di dalam *class/object* maka disebut *method*. 
 
-Semua sifat-sifat *function* bisa diterapkan ke dalam *method*, seperti parameter, mengembalikan nilai (akan dibahas pada artikel selanjutnya), dan lain-lain. *method* juga seperti *property* yaitu bisa memiliki salah satu *visibility keyword: Public atau Protected* atau *Private*. 
+Semua sifat-sifat *function* bisa diterapkan ke dalam *method*, seperti parameter, mengembalikan nilai (akan dibahas pada artikel selanjutnya), dan lain-lain. *method* juga seperti *property* yaitu bisa memiliki salah satu *visibility keyword: Public* atau *Protected* atau *Private*. 
 
 Berikut contoh *method*:
 
