@@ -7,7 +7,7 @@ tags:
 published: true
 ---
 
-**Object** adalah hasil konkrit atau *hasil cetakan* dari sebuah **class**. Sebagai contoh pada artikel sebelumnya saya telah membuat **Class User** maka object-nya adalah para User atau *account*, misalnya *Khoerodin*, *Andi* dan *Bagus*. Berikut contohnya, silakan praktekkan di komputer masing-masing ya, karena akan lebih faham jika dipraktekkan :smile:
+**Object** adalah hasil konkrit atau *hasil cetakan* dari sebuah **class**. Sebagai contoh pada artikel sebelumnya saya telah membuat *Class* `User` maka *object*-nya adalah para *User* atau *account*, misalnya *Khoerodin*, *Andi* dan *Bagus*. Berikut contohnya, silakan praktekkan di komputer masing-masing ya, karena akan lebih faham jika dipraktekkan :smile:
 
 ```php
 class User {
@@ -72,7 +72,7 @@ class User {
 ...
 ```
 
-Ini adalah mendefinisikan **Class** baru dengan nama **User**, diikuti pembuka kurung kurawal untuk mengawali Class dan tentunya pada baris terakhir ditutup oleh penutup kurung kurawal.
+Ini adalah mendefinisikan *class* baru dengan nama `User`, diikuti pembuka kurung kurawal untuk mengawali *class* dan tentunya pada baris terakhir ditutup oleh penutup kurung kurawal.
 
 ```php
 ...
@@ -83,7 +83,7 @@ Ini adalah mendefinisikan **Class** baru dengan nama **User**, diikuti pembuka k
 ...
 ```
 
-Baris selanjutnya ialah mendefinisikan property, dengan didahului menggunakan keyword **var**. Selain keyword **var** bisa saja menggunakan keyword **public** atau **protected** atau **private**, tapi di sini saya menggunakan **var**. Dalam artikel ini bisa kita abaikan saja pertanyaan *Apa sih fungsi var, public, protected dan private?* Karena bahasan mengenai keyword **public**, **protected** dan **private** akan dibahas dalam artikel tersendiri yaitu tentang **pewarisan**.
+Baris selanjutnya ialah mendefinisikan *property*, dengan didahului menggunakan *keyword* `var`. Selain *keyword* `var` bisa saja menggunakan *keyword* `public` atau `protected` atau `private`, tapi di sini saya menggunakan `var`. Dalam artikel ini bisa kita abaikan saja pertanyaan *Apa sih fungsi var, public, protected dan private?* Karena bahasan mengenai keyword `public`, `protected` dan `private` akan dibahas dalam artikel tersendiri yaitu tentang **pewarisan**.
 
 ```php
 ...
@@ -94,7 +94,7 @@ Baris selanjutnya ialah mendefinisikan property, dengan didahului menggunakan ke
 ...
 ```
 
-Ini adalah **method**, seperti yang sudah saya jelaskan pada <a href="https://khoerodin.id/method-dalam-oop-php/" target="_blank">artikel yang lain</a>.
+Ini adalah *method*, seperti yang sudah saya jelaskan pada <a href="https://khoerodin.id/method-dalam-oop-php/" target="_blank">artikel yang lain</a>.
 
 ```php
 ...
@@ -102,7 +102,7 @@ $Khoerodin = new User();
 ...
 ```
 
-Nah ini adalah **instansiasi object** yaitu cara membuat **object** dari sebuah **class** yang dalam hal ini yaitu class `User`.
+Nah ini adalah **instansiasi _object_** yaitu cara membuat *object* dari sebuah *class* yang dalam hal ini yaitu class `User`.
 
 ```php
 ...
@@ -113,7 +113,7 @@ $Khoerodin->address = "Ciamis, Indonesia";
 ...
 ```
 
-Baris berikutnya yaitu memberikan nilai kepada `property` yang berada dalam obejct **Khoerodin**
+Baris berikutnya yaitu memberikan nilai kepada *property* yang berada dalam *obejct* `$Khoerodin`
 
 ```php
 ...
@@ -126,7 +126,7 @@ echo "<br /><br />";
 ...
 ```
 
-Selanjutnya yaitu memanggil property yang isinya menampilkan nilai yaitu berupa nilai yang telah diberikan kepada **property dalam method Khoerodin**.
+Selanjutnya yaitu memanggil dan menampilkan *property* yang isinya berupa nilai telah diberikan kepada *property* dalam *method* `$Khoerodin`.
 
 ```php
 ...
@@ -134,9 +134,9 @@ echo $Khoerodin->showSalam();
 ...
 ```
 
-Ini untuk memanggil method **showSalam()** dari class **Khoerodin**.
+Ini untuk memanggil method `showSalam()` dengan *object* `$Khoerodin`.
 
 ### Objek Sebagai Entitas Terpisah
-Setiap objek merupakan bagian terpisah, pada contoh baris `code` di atas kita membuat object baru yaitu obejct **Andi**. Sama seperti object **Khoerodin** object **Andi** ini juga berasal dari satu class yang sama yaitu class **User**. Semua method dan property dalam obejct **Andi** akan sama persis dengan method dan property dalam object **Khoerodin**. Tapi object **Khoerodin** dan object **Andi** merupakan entitas berbeda atau terpisah, sehigga kita bisa memberikan nilai yang berbeda pada masing-masing object sebagaimana contoh dalam baris `code`. Coba deh jalankan baris `code` di atas biar lebih gamblang dan nanti hasilnya harusnya gini:
+Setiap objek merupakan bagian terpisah, pada contoh baris kode di atas kita membuat *object* baru yaitu *obejct* `$Andi`. Sama seperti *object* `$Khoerodin` object `$Andi` ini juga berasal dari satu *class* yang sama yaitu class `User`. Semua *method* dan *property* dalam *obejct* `$Andi` akan sama persis dengan *method* dan *property* dalam object `$Khoerodin`. Tapi *object* `$Khoerodin` dan *object* `$Andi` merupakan entitas berbeda atau terpisah, sehigga kita bisa memberikan nilai yang berbeda pada masing-masing *object* sebagaimana contoh dalam baris kode. Coba deh jalankan baris kode di atas biar lebih gamblang dan nanti hasilnya harusnya gini:
 
 ![Contoh Object PHP](https://raw.githubusercontent.com/khoerodin/khoerodin.github.io/master/assets/images/object-php.png "Contoh Object PHP")
