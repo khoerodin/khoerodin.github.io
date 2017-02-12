@@ -7,7 +7,7 @@ tags:
 published: true
 ---
 
-Konstanta Class atau **Class Constants** dapat juga didefinisikan di dalam sebuah *Class* dan sama seperti <a href="https://khoerodin.id/constanta-dalam-php/" target="_blank">konstanta regular</a> konstanta *class* juga tidak dapat diubah nilainya. Nilai atau *value* dari konstanta harus berupa ekspresi *konstan* atau ekspresi tetap yaitu bukan merupakan *variable*, *property* atau *function* dan lain-lain.
+Konstanta Class atau **Class Constants** dapat juga didefinisikan di dalam sebuah *Class* dan sama seperti <a href="https://khoerodin.id/konstanta-dalam-php/" target="_blank">konstanta regular</a> konstanta *class* juga tidak dapat diubah nilainya. Nilai atau *value* dari konstanta harus berupa ekspresi *konstan* atau ekspresi tetap yaitu bukan merupakan *variable*, *property* atau *function* dan lain-lain.
 
 ### Mendefinisikan Konstanta Class
 Berikut cara mendefinisikan konstanta dalam sebuah *class*
