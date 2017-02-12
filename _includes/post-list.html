@@ -27,9 +27,9 @@
 			 • 
       {% assign words = post.content | number_of_words %}
       {% if words < 360 %}
-        Waktu baca kurang dari 1 menit
+        Kurang dari 1 menit
       {% else %}
-        Waktu baca {{ words | divided_by:180 }} menit
+        {{ words | divided_by:180 }} menit
       {% endif %}
       </span>
 			<p>{{ post.excerpt }}</p>
