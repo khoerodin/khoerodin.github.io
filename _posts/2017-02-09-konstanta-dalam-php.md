@@ -50,11 +50,9 @@ define("USER", "MUKIDI");
 jika kode di atas tetap dijalankan maka akan keluar *error*.
 
 ### Predefined Constants
-PHP sendiri juga telah membawa konstanta bawaaan atau *Predefined Constants* atau *Reserved Constants*, artinya terdapat konstanta yang bawaan yang tidak boleh didefinisikan kembali oleh *programmer*. Contoh beberapa *Predefined Constants* adalah 
+PHP sendiri juga telah membawa konstanta bawaaan atau *Predefined Constants* atau *Reserved Constants*, artinya terdapat konstanta yang bawaan yang tidak boleh didefinisikan kembali oleh *programmer*. Contoh beberapa *Predefined Constants*:
 
-```php
-PHP_VERSION, PHP_MAJOR_VERSION, PHP_MINOR_VERSION, PHP_RELEASE_VERSION, PHP_VERSION_ID, PHP_EXTRA_VERSION, PHP_ZTS, PHP_DEBUG, PHP_MAXPATHLEN, PHP_OS, PHP_SAPI, PHP_EOL, PHP_INT_MAX, PHP_INT_SIZE, DEFAULT_INCLUDE_PATH, PEAR_INSTALL_DIR, PEAR_EXTENSION_DIR, PHP_EXTENSION_DIR, PHP_PREFIX, PHP_BINDIR, PHP_BINARY, PHP_MANDIR, PHP_LIBDIR, PHP_DATADIR, __LINE__ , __FILE__ , __DIR__ , __FUNCTION__ , __CLASS__ , __TRAIT__ , __METHOD__, __NAMESPACE__
-```
+`PHP_VERSION`, `PHP_MAJOR_VERSION`, `PHP_MINOR_VERSION`, `PHP_RELEASE_VERSION`, `PHP_VERSION_ID`, `PHP_EXTRA_VERSION`, `PHP_ZTS`, `PHP_DEBUG`, `PHP_MAXPATHLEN`, `PHP_OS`, `PHP_SAPI`, `PHP_EOL`, `PHP_INT_MAX`, `PHP_INT_SIZE`, `DEFAULT_INCLUDE_PATH`, `PEAR_INSTALL_DIR`, `PEAR_EXTENSION_DIR`, `PHP_EXTENSION_DIR`, `PHP_PREFIX`, `PHP_BINDIR`, `PHP_BINARY`, `PHP_MANDIR`, `PHP_LIBDIR`, `PHP_DATADIR`, `__LINE__` , `__FILE__` , `__DIR__` , `__FUNCTION__` , `__CLASS__` , `__TRAIT__` , `__METHOD__`, `__NAMESPACE__`
 
 Lebih lengkapnya bisa dibuka di *website* resmi PHP <a href="http://php.net/manual/en/reserved.constants.php" target="_blank">disini</a>.
 
