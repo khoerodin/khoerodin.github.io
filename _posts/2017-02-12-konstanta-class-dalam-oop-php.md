@@ -66,7 +66,7 @@ echo $objek::JK; // Mulai PHP 5.3.0
 
 **3. Akses dari variable yang ber-value nama sebuah class**
 
-Nama *class* terlebih dahulu dijadikan *variable value*.
+Nama *class* terlebih dahulu dijadikan *variable value*. Tapi perlu diperhatikan bahwa *variable value* tidak boleh berupa *keyword* sperti `self`, `parent` and `static`.
 
 ```php
 class User
