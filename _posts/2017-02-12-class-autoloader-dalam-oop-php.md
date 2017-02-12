@@ -59,4 +59,4 @@ $address->showAddress('Ciamis');
 
 Coba jalankan kode tersebut. Ya inilah solusinya, kita tidak usah repot-repot meng-*include* satu per satu _file class_ yang dibutuhkan karena akan repot jika _class_ yang dibutuhkan tidak sedikit. Dengan ini PHP otomatis akan memanggil/melakukan `include` ketika `new Class()` dideklarasikan.
 
-`spl_autoload_register()` fungsinya untuk me*register function* atau *static method*,  selanjutnya ketika `new Class()` dideklarasikan PHP akan melakukan antrian (queue/stack) dan memanggil secara berurutan. Mudah kan? :smile: ayo tetap semangaaat :muscle: :muscle: :muscle: .
+`spl_autoload_register()` fungsinya untuk me*register function* atau *static method*,  selanjutnya ketika `new Class()` dideklarasikan PHP akan melakukan antrian (queue/stack) dan memanggilnya secara berurutan. Mudah kan? :smile: ayo tetap semangaaat :muscle: :muscle: :muscle: .
