@@ -35,13 +35,13 @@ $ sudo apt-get update
 ```
 
 ## Menginstall Package
-Install Ruby sesuai versi yang diinginkan
+*Install* Ruby sesuai versi yang diinginkan
 
 ```bash
 $ sudo apt-get install ruby1.8 ruby1.9.3 ruby2.2
 ```
 
-jika menginginkan juga **dev package**
+jika menginginkan **dev package**
 
 ```bash
 $ sudo apt-get install ruby1.8-dev ruby1.9.3-dev ruby2.2-dev
@@ -53,7 +53,7 @@ Kita bisa dengan mudah gonta-ganti versi Ruby menggunakan `ruby-switch`
 ```bash
 $ sudo apt-get install ruby-switch
 ```
-untuk melihat list Ruby terinstall
+untuk melihat *list* Ruby ter*install*
 
 ```bash
 $ ruby-switch --list
@@ -80,7 +80,8 @@ bisa di cek versi terpilih
 ```bash
 $ ruby -v
 
+// output
 ruby 1.9.3p551 (2014-11-13) [x86_64-linux] Brightbox
 ```
 
-Demikian, lebih lengkapnya ada di [Brightbox](https://www.brightbox.com/docs/ruby/ubuntu/ "Brightbox"). Semoga berkah manfaat dan Happy Coding :blush: :coffee:
+Demikian, lebih lengkapnya ada di [Brightbox](https://www.brightbox.com/docs/ruby/ubuntu/ "Brightbox"). Semoga berkah manfaat dan *Happy Coding* :blush: :coffee:
