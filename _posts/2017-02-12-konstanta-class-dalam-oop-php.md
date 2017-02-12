@@ -74,7 +74,7 @@ class User
     const JK = 'Laki-laki';
 }
 $classname = "User";
-echo $classname::JK; // Mulai of PHP 5.3.0
+echo $classname::JK; // Mulai PHP 5.3.0
 ```
 
 ### Tambahan
