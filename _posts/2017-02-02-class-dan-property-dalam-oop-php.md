@@ -28,7 +28,7 @@ class User {
 ```
 
 ## Property
-*Property* sebenarnya hanyalah sebuah *variable* yang terletak dalam sebuah *class*. Dalam literatur yang lain *property* disebut juga dengan *attribute*. Cara penulisan *property* ialah dengan didahului oleh **var** atau **visibility keyword** yaitu **public** atau **protected** atau **private** dan diikuti dengan penulisan nama *variable* sebagaimana biasanya dalam PHP yaitu diawali dengan huruf atau *underscore* untuk karakter pertama, kemudian boleh diikuti dengan huruf, *underscore* atau angka untuk karakter kedua dan selanjutnya. Perhatikan contoh di bawah:
+*Property* sebenarnya hanyalah sebuah *variable* yang terletak dalam sebuah *class*. Dalam literatur yang lain *property* disebut juga dengan *attribute*. Cara penulisan *property* ialah dengan didahului oleh **_var_** atau **_visibility keyword_** yaitu **_public_** atau **_protected_** atau **_private_** dan diikuti dengan penulisan nama *variable* sebagaimana biasanya dalam PHP yaitu diawali dengan huruf atau *underscore* untuk karakter pertama, kemudian boleh diikuti dengan huruf, *underscore* atau angka untuk karakter kedua dan selanjutnya. Perhatikan contoh di bawah:
 
 ```php
 class User {
