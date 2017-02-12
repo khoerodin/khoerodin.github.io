@@ -7,7 +7,7 @@ tags:
 published: true
 ---
 
-**_Method_** adalah tindakan atau aksi dari suatu *class*. Pada <a href="https://khoerodin.id/class-dan-property-dalam-oop-php/" target="_blank">artikel sebelumnya</a> pernah diberikan contoh *class* `User`, maka contoh methodnya adalah **register user**, **_edit user_**, **_delete user_**, **_follow user_** dan *method-method* atau aksi-aksi lain yang diinginkan untuk diterapkan dalam *class* `User`.
+**_Method_** adalah tindakan atau aksi dari suatu *class*. Pada <a href="https://khoerodin.id/class-dan-property-dalam-oop-php/" target="_blank">artikel sebelumnya</a> pernah diberikan contoh *class* `User`, maka contoh methodnya adalah **_register user_**, **_edit user_**, **_delete user_**, **_follow user_** dan *method-method* atau aksi-aksi lain yang diinginkan untuk diterapkan dalam *class* `User`.
 
 Mudahnya *method* adalah **_function_** yang berada di dalam suatu *class*. Ketika membuat *function* di luar *class/object* maka disebut *function*, namun ketika membuat *function* di dalam *class/object* maka disebut *method*. 
 
