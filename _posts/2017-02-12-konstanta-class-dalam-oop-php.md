@@ -105,4 +105,4 @@ echo User::PENDIDIKAN;
 
 Jika kode diatas dijalankan pasti akan error, karena `const PENDIDIKAN` adalah `private`.
 
-Apa sih *Visibility Modifier* ? akan dijelaskan kok dalam artikel tersendiri tentang **_encapsulation_**, mungkin kali ini bisa diabaikan tentang *Visibility Modifier*.
+Apa sih *Visibility Modifier* ? akan dijelaskan kok dalam artikel tersendiri tentang **_encapsulation_** atau **_visibility_**, mungkin kali ini bisa diabaikan tentang *Visibility Modifier*.
