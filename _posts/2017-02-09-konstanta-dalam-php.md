@@ -14,18 +14,18 @@ Cara penamaan konstanta sama seperti *variable* yaitu diawali dengan huruf atau 
 ### Cara Pendifinisian
 Cara mendefinisikan konstanta ada dua macam dalam PHP, yaitu
 
-1. Menggunakan keyword **const**
+**1. Menggunakan keyword `const`**
 
-Pendefinisian konstanta menggunakan *keyword* **const** hanya dapat digunakan pada *top-level scope*, yakni harus dalam lingkungan *global* PHP. Sehingga kita tidak bisa menggunakan **const** di dalam *function*, *loop*, atau kondisi if.
+Pendefinisian konstanta menggunakan *keyword* `const` hanya dapat digunakan pada *top-level scope*, yakni harus dalam lingkungan *global* PHP. Sehingga kita tidak bisa menggunakan `const` di dalam *function*, *loop*, atau kondisi if.
 
 ```php
 const blog = "khoerodin.id";
 echo blog;  // khoerodin.id
 ```
 
-2. Menggunakan fungsi **define**
+**2. Menggunakan fungsi `define()`**
 
-Jika ingin mendefinisikan konstanta menggunakan fungsi **define** maka membutuhkan dua nilai yaitu nama konstanta dan nilainya.
+Jika ingin mendefinisikan konstanta menggunakan fungsi `define()` maka membutuhkan dua nilai yaitu nama konstanta dan nilainya.
 
 ```php
 define("blog", "khoerodin.id");
