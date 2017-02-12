@@ -7,7 +7,7 @@ tags:
 published: true
 ---
 
-**_Property_**, **_Method_** dan **Konstanta** (khusus konstanta mulai PHP 7.1.0) dapat dikontrol aksesnya menggunakan _visibility keyword_. Terdapat tiga _keyword_ yaitu `public`, `protected` dan `private`, dalam literaur lain ini umum juga disebut dengan istilah enkapsulasi atau **_encapsulation_**. Cara menggunakannya yaitu dengan memberikan _prefix_ berupa salah satu dari tiga _visibility keyword_ pada **_Property_**, **_Method_** dan **Konstanta**.
+**_Property_**, **_Method_** dan **Konstanta** (khusus konstanta mulai PHP 7.1.0) dapat dikontrol aksesnya menggunakan _visibility keyword_. Terdapat tiga _keyword_ yaitu `public`, `protected` dan `private`, dalam literatur lain ini umum juga disebut dengan istilah enkapsulasi atau **_encapsulation_**. Cara menggunakannya yaitu dengan memberikan _prefix_ berupa salah satu dari tiga _visibility keyword_ pada **_Property_**, **_Method_** dan **Konstanta**.
 
 Berikut penjelasan untuk masing-masing dari ketiga _visibility keyword_:
 
