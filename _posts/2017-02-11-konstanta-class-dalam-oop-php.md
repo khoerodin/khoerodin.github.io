@@ -32,7 +32,7 @@ class User
     const JK = 'Laki-laki';
 
     function showJK() {
-        echo  self::JK;
+        echo self::JK;
     }
 }
 ```

@@ -10,11 +10,11 @@ tags:
 published: true
 ---
 
-Heroku merupakan _layanan cloud computing_ bertype <a href="https://rizkimufrizal.github.io/heroku-sebagai-komputasi-modern/" target="_blank">PaaS</a> _(Platform as a Service)_. Bagi para web developer lumayan lah versi gratisnya kalau hanya untuk sekedar demo aplikasi/website yang sedang dibangun.
+**Heroku** merupakan _layanan cloud computing_ bertype <a href="https://rizkimufrizal.github.io/heroku-sebagai-komputasi-modern/" target="_blank">PaaS</a> _(Platform as a Service)_. Bagi para *web developer* lumayan lah versi gratisnya kalau hanya untuk sekedar *demo* aplikasi/*website* yang sedang dibangun.
 
 ![Laravel with Heroku](https://raw.githubusercontent.com/khoerodin/khoerodin.github.io/master/assets/images/laravel_heroku.jpg "Laravel with Heroku")
 
-Berikut environment yang saya pakai ketika membuat tulisan ini:
+Berikut *environment* yang saya pakai ketika membuat tulisan ini:
 
 1. Ubuntu 16.04 64-bit
 2. PHP 7.0.8
@@ -31,7 +31,7 @@ Sebelum dimulai, pastikan Anda telah memahami:
 
 #### Siap? Ayo kita mulai...
 
-Buat project Laravel seperti biasa
+Buat *project* Laravel seperti biasa
 
 ```bash
 $ laravel new herovel
@@ -87,7 +87,7 @@ $ heroku config:get CLEARDB_DATABASE_URL
 
 #### Set ENV variables
 
-Set .env variables sesuai kebutuhan Anda:
+Set *.env variables* sesuai kebutuhan Anda:
 
 ```bash
 // DB_CONNECTION ganti sesuai dengan yang Anda pakai
@@ -123,7 +123,7 @@ $ heroku run php artisan migrate
 ```bash
 $ heroku open
 ```
-Otomatis browser akan membuka aplikasi Heroku,
+Otomatis `browser` akan membuka aplikasi Heroku,
 Tadaaaaa...... Laravel sudah di Heroku :smiley: :smiley: :smiley:
 
 Mudah-mudahan bisa segera menyusul tutorial <a href="https://www.docker.com/" target="_blank">Docker</a> dan <a href="http://dokku.viewdocs.io/dokku/" target="_blank">Dokku</a>
