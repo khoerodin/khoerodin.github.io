@@ -103,4 +103,6 @@ echo User::JK . "<br/>";
 echo User::PENDIDIKAN;
 ```
 
+Jika kode diatas dijalankan pasti akan error, karena `const PENDIDIKAN` adalah `private`.
+
 Apa sih *Visibility Modifier* ? akan dijelaskan kok dalam artikel tersendiri tentang **pewarisan** atau **inheritance**, mungkin kali ini bisa diabaikan tentang *Visibility Modifier*.
