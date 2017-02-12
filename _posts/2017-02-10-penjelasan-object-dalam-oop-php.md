@@ -83,7 +83,7 @@ Ini adalah mendefinisikan *class* baru dengan nama `User`, diikuti pembuka kurun
 ...
 ```
 
-Baris selanjutnya ialah mendefinisikan *property*, dengan didahului menggunakan *keyword* `var`. Selain *keyword* `var` bisa saja menggunakan *keyword* `public` atau `protected` atau `private`, tapi di sini saya menggunakan `var`. Dalam artikel ini bisa kita abaikan saja pertanyaan *Apa sih fungsi var, public, protected dan private?* Karena bahasan mengenai keyword `public`, `protected` dan `private` akan dibahas dalam artikel tersendiri yaitu tentang **pewarisan**.
+Baris selanjutnya ialah mendefinisikan *property*, dengan didahului menggunakan *keyword* `var`. Selain *keyword* `var` bisa saja menggunakan *keyword* `public` atau `protected` atau `private`, tapi di sini saya menggunakan `var`. Dalam artikel ini bisa kita abaikan saja pertanyaan *Apa sih fungsi var, public, protected dan private?* Karena bahasan mengenai keyword `public`, `protected` dan `private` akan dibahas dalam artikel tersendiri yaitu tentang **encapsulation**.
 
 ```php
 ...
