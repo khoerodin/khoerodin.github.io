@@ -1,5 +1,5 @@
 ---
-title: "#9. Pewarisan (Obejct Inheritance) -  dalam OOP PHP"
+title: "#9. Pewarisan (Obejct Inheritance) dalam OOP PHP"
 date: '2017-02-13 10:08:00'
 description: Apa itu Constructor dan Destructor dalam OOP PHP ? PHP menyediakan method khusus yang berjalan ketika sebuah object mulai dibuat dan dimatikan, yaitu method __construct() yang disebut constructor dan method __destruct() yang disebut destructor
 tags:
