@@ -19,7 +19,7 @@ class User
     public $name;
     public $username;
     protected $brithdate = '03 Juni 2016';
-    private $address;
+    private $address = 'Yogyakarta';
     protected $gender = 'Male';
 
     public function showSalam(){
@@ -29,7 +29,7 @@ class User
 
 // membuat class baru
 // dengan extends class User
-// artinya mewarisi property dan object
+// artinya mewarisi property dan method
 // dari class User 
 class Bio extends User
 {
