@@ -10,10 +10,10 @@ published: true
 PHP menyediakan _method_ khusus yang berjalan ketika sebuah _object_ mulai dibuat dan dimatikan, yaitu _method_ `__construct()` yang disebut _constructor_ dan _method_ `__destruct()` yang disebut _destructor_.
 
 **1. _Constructor_**  
-_Method_ `__construct()` akan dieksekusi ketika suatu `object` mulai dibuat atau diinstansiasi, yaitu ketika `new` jalankan. 
+_Method_ `__construct()` akan dieksekusi ketika suatu _object_ mulai dibuat atau diinstansiasi, yaitu ketika `new` jalankan. 
 
 **2. _Destructor_**  
-_Method_ `__destruct()` akan dieksekusi ketika `object` dihapus atau berhenti dijalankan.
+_Method_ `__destruct()` akan dieksekusi ketika _object_ dihapus atau berhenti dijalankan.
 
 Perhatikan kode berikut:
 
@@ -49,4 +49,4 @@ echo $bagus->showBio();
 
 Jika kode di atas dijalankan maka _outputnya_ `Ini dari konstruktor. Nama saya Bagus dan saya berasal dari Yogyakarta Ini dari destruktor.`
 
-Contoh lain yang **_lebih gamblang_** mengenai _constructor_ dan _destructor_ saya sertakan dam _ebook_ saya, **Mudah Faham Object-Oriented PHP** 
+Contoh lain yang **_lebih gamblang_** mengenai _constructor_ dan _destructor_ saya sertakan dalam **_ebook_** saya.
