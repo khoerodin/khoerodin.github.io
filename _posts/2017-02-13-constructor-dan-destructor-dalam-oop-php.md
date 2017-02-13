@@ -40,7 +40,7 @@ class User {
     }
 }
 
-// membuat object bagus
+// membuat object $bagus
 $bagus = new User();
 
 // panggil method dari object $bagus
