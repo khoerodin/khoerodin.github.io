@@ -52,7 +52,7 @@ readmore: true
     {% assign postHasSimilar = false %}
     {% for tag in post.tags %}
         {% for thisTag in page.tags %}
-            {% if postHasSimilar == false and hasSimilar.size < 6 and post != page and tag == thisTag %}
+            {% if postHasSimilar == false and hasSimilar.size < 20 and post != page and tag == thisTag %}
                 {% if hasSimilar.size == 0 %}     
       <h3>Related posts</h3>
         <ul>
