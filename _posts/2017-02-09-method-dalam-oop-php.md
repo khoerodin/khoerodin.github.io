@@ -1,7 +1,7 @@
 ---
 title: "#3. Method dalam OOP PHP"
 date: '2017-02-09 19:00:00'
-description: Artikel Seri Belajar Mudah OOP PHP, Apa itu Method dalam OOP PHP ? Di sini akan saya jelaskan...
+description: Method adalah function yang berada di dalam suatu class. Ketika membuat function di luar class/object maka disebut function, namun ketika membuat function di dalam class/object maka disebut method
 tags:
 - BelajarOOPPHP
 published: true

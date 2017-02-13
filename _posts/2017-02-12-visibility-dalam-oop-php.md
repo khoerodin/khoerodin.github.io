@@ -1,7 +1,7 @@
 ---
 title: "#6. Visibility dalam OOP PHP"
 date: '2017-02-12 15:25:00'
-description: Artikel Seri Belajar Mudah OOP PHP, Apa itu Visibility atau Enkapsulasi (Public, Protected, Private) dalam OOP PHP ? Di sini akan saya jelaskan...
+description: Property, Method dan Konstanta (khusus konstanta mulai PHP 7.1.0) dapat dikontrol aksesnya menggunakan visibility keyword. Terdapat tiga keyword_ yaitu public, protected dan private, dalam literatur lain ini umum juga disebut dengan istilah enkapsulasi atau encapsulation.
 tags:
 - BelajarOOPPHP
 published: true

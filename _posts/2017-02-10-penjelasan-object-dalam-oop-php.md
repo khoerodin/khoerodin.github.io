@@ -1,13 +1,13 @@
 ---
 title: "#4. Penjelasan Object dalam OOP PHP"
 date: '2017-02-10 15:30:00'
-description: Artikel Seri Belajar Mudah OOP PHP, Apa itu Object dalam OOP PHP ? Di sini akan saya jelaskan...
+description: Object adalah hasil konkrit atau hasil cetakan dari sebuah class. Sebagai contoh pada artikel sebelumnya saya telah membuat class User maka object-nya adalah para User atau account
 tags:
 - BelajarOOPPHP
 published: true
 ---
 
-**_Object_** adalah hasil konkrit atau *hasil cetakan* dari sebuah **class**. Sebagai contoh pada artikel sebelumnya saya telah membuat *Class* `User` maka *object*-nya adalah para *User* atau *account*, misalnya *Khoerodin*, *Andi* dan *Bagus*. Berikut contohnya, silakan praktekkan di komputer masing-masing ya, karena akan lebih faham jika dipraktekkan :smile:
+**_Object_** adalah hasil konkrit atau *hasil cetakan* dari sebuah **class**. Sebagai contoh pada artikel sebelumnya saya telah membuat *class* `User` maka *object*-nya adalah para *User* atau *account*, misalnya *Khoerodin*, *Andi* dan *Bagus*. Berikut contohnya, silakan praktekkan di komputer masing-masing ya, karena akan lebih faham jika dipraktekkan :smile:
 
 ```php
 class User {
