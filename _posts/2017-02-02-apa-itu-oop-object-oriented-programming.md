@@ -1,5 +1,5 @@
 ---
-title: "#1. Apa itu OOP (Object Oriented Programming) ?"
+title: "Apa itu OOP (Object Oriented Programming) ?"
 date: '2017-02-02 11:01:55'
 description: >-
   Artikel Seri Belajar Mudah OOP PHP, Apa itu OOP? bagaimana mempelajari

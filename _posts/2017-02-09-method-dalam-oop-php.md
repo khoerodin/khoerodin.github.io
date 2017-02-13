@@ -1,5 +1,5 @@
 ---
-title: "#3. Method dalam OOP PHP"
+title: "Method dalam OOP PHP"
 date: '2017-02-09 19:00:00'
 description: Method adalah function yang berada di dalam suatu class. Ketika membuat function di luar class/object maka disebut function, namun ketika membuat function di dalam class/object maka disebut method
 tags:

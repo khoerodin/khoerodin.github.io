@@ -1,5 +1,5 @@
 ---
-title: "#4. Penjelasan Object dalam OOP PHP"
+title: "Penjelasan Object dalam OOP PHP"
 date: '2017-02-10 15:30:00'
 description: Object adalah hasil konkrit atau hasil cetakan dari sebuah class. Sebagai contoh pada artikel sebelumnya saya telah membuat class User maka object-nya adalah para User atau account
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "#5. Konstanta Class dalam OOP PHP"
+title: "Konstanta Class dalam OOP PHP"
 date: '2017-02-12 08:06:00'
 description: Konstanta Class dapat juga didefinisikan di dalam sebuah *class* dan sama seperti konstanta regular konstanta class juga tidak dapat diubah nilainya.
 tags:
