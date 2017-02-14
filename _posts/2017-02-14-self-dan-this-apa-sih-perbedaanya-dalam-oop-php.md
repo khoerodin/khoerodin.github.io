@@ -1,5 +1,5 @@
 ---
-title: "Self dan $this, Apa Perbedaaanya dalam OOP PHP?"
+title: "Self dan $this, Apa Perbedaanya dalam OOP PHP?"
 date: '2017-02-14 09:38:00'
 description: 
 tags:
