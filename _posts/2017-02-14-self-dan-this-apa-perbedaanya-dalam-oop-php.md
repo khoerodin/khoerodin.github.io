@@ -1,7 +1,7 @@
 ---
 title: "Self dan $this, Apa Perbedaanya dalam OOP PHP?"
 date: '2017-02-14 09:38:00'
-description: 
+description: Dalam bahasa yang sangat sederhana $this digunakan untuk mereferensikan property atau method yang berada dalam current object. Sedangkan self digunakan untuk mereferensikan property atau method yang berada dalam current class.
 tags:
 - BelajarOOPPHP
 published: true
