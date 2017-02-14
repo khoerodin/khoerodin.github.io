@@ -86,4 +86,4 @@ $Bagus->showBio();
 $Bagus->showAddress();
 ```
 
-Ada yang ditanyakan? jangan sungkan untuk berkomentar sambil ngopi-ngopi.. :smiley: :coffee:
+Kita bisa lihat bahwa _class_ `Bio`(_object_ `$Bagus`) mewarisi (dapat mengkases) _property_ dan _method_ yang bersifat `public` dan `protected` dari _class_ `User`. Ada yang ditanyakan? jangan sungkan untuk berkomentar sambil ngopi-ngopi.. :smiley: :coffee:
