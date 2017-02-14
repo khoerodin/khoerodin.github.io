@@ -1,1 +1,0 @@
-For my professional web-blog [http://khoerodin.id](http://khoerodin.id).
