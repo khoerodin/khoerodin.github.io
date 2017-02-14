@@ -82,7 +82,7 @@ abstract class User
 class Admin extends User
 {
     public function showName(){
-    	echo "I am is Bagus";
+    	return "Bagus";
     }
 
     // tidak ada showGreeting($greeting)
@@ -103,7 +103,7 @@ class Admin extends User
 {
     // protected
     protected function showName(){
-    	echo "I am is Admin ";
+    	return "Bagus";
     }
 }
 ```
@@ -124,12 +124,12 @@ abstract class User
 class Admin extends User
 {
     public function showName(){
-    	echo "Bagus";
+    	return "Bagus";
     }
 
     // tidak memiliki argumen $greeting
     public function showGreeting(){
-    	echo "Hi, ";
+    	return "Hi, ";
     }
 }
 ```
@@ -155,7 +155,7 @@ class Admin extends User
     // memiliki required argument: $greeting
     // dan opsional argument: $address
     public function showGreeting($greeting, $address = 'Banjar'){
-    	echo $greeting . ", my name is " . $this->showName() . " from " . $address;
+    	return $greeting . ", my name is " . $this->showName() . " from " . $address;
     }
 }
 
@@ -185,7 +185,7 @@ class Admin extends User
     }
 
     public function showGreeting($greeting, $address = 'Banjar'){
-    	echo $greeting . ", my name is " . $this->showName() . " from " . $address;
+    	return $greeting . ", my name is " . $this->showName() . " from " . $address;
     }
 }
 
@@ -196,7 +196,7 @@ class Editor extends User
     }
 
     public function showGreeting($greeting, $address = 'Banjar'){
-    	echo $greeting . ", my name is " . $this->showName() . " from " . $address;
+    	return $greeting . ", my name is " . $this->showName() . " from " . $address;
     }
 }
 
@@ -207,7 +207,7 @@ class Reporter extends User
     }
 
     public function showGreeting($greeting, $address = 'Banjar'){
-    	echo $greeting . ", my name is " . $this->showName() . " from " . $address;
+    	return $greeting . ", my name is " . $this->showName() . " from " . $address;
     }
 }
 
