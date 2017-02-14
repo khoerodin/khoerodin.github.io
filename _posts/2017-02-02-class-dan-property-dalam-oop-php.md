@@ -8,7 +8,7 @@ tags:
 published: true
 ---
 
-Setelah dalam [artikel sebelumnya](http://khoerodin.id/apa-itu-oop-object-oriented-programming/) membahas apa itu OOP, kali ini akan coba saya jelaskan apa itu *Class* dan *Property*.
+Setelah dalam <a href="{{ site.url }}/apa-itu-oop-object-oriented-programming" target="_blank" title="artikel sebelumnya">artikel sebelumnya</a> membahas apa itu OOP, kali ini akan coba saya jelaskan apa itu *Class* dan *Property*.
 
 ## Class
 Simplenya *class* adalah *blueprint* dari *object*. *Class* digunakan sebagai kerangka dasar atau cetakan yang menyimpan *property* dan *method*, dan yang akan kita pakai adalah hasil cetakan tersebut yaitu *object*. Aturan penamaan *class* diawali dengan huruf atau *underscore* untuk karakter pertama, kemudian boleh diikuti dengan huruf, *underscore* atau angka untuk karakter kedua dan selanjutnya. Masih bingung ya? Berikut contoh cara penulisan *class* dalam PHP, dalam contoh di bawah saya buat *class* `User`

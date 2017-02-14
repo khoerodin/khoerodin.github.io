@@ -94,7 +94,7 @@ Baris selanjutnya ialah mendefinisikan *property*, dengan didahului menggunakan 
 ...
 ```
 
-Ini adalah *method*, seperti yang sudah saya jelaskan pada <a href="https://khoerodin.id/method-dalam-oop-php/" target="_blank">artikel yang lain</a>.
+Ini adalah *method*, seperti yang sudah saya jelaskan pada <a href="{{ site.url }}/method-dalam-oop-php/" target="_blank" title="artikel yang lain" >artikel yang lain</a>.
 
 ```php
 ...
