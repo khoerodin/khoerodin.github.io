@@ -31,7 +31,7 @@ google_analytics    : '#'
 disqus_shortname    : 'khoerodin'
 
 # Details for the RSS feed generator
-url                 : 'httsp://khoerodin.id'
+url                 : 'https://khoerodin.id'
 author              : 'Khoerodin'
 
 permalink           : :title/
