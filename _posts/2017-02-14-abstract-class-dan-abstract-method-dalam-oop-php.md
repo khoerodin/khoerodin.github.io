@@ -129,7 +129,7 @@ class Admin extends User
 
     // tidak memiliki argumen $greeting
     public function showGreeting(){
-    	return "Hi, ";
+    	return "My name is " . $this->showName();
     }
 }
 ```
@@ -224,5 +224,44 @@ outputnya:
 **Good morning, my name is Bagus Admin from Bandung**  
 **Good night, my name is Andre Editor from Jayapura**  
 **Good evening, my name is Bambang Reporter from Maluku**  
+
+**8. _Abstract class_ boleh memiliki property dan method regular**
+
+```php
+// abstract class
+abstract class User
+{
+    // regular property
+    protected $address = 'Semarang';
+
+    // abstract method
+    abstract protected function showName();
+    abstract public function showGreeting($greeting);
+    
+    // regular method
+    public function showBio(){
+        return "Hi, my name is " . $this->showName() . " from " . $this->address;
+    }
+}
+``` 
+
+**9. _Abstract class_ boleh memiliki static method**
+
+```php
+// abstract class
+abstract class User
+{
+    // abstract method
+    abstract protected function showName();
+    
+    // static method
+    public static function showHi(){
+        return "Hi, this is static method";
+    }
+}
+
+// panggil static method dari abstract class
+echo User::showHi();
+```
 
 Gimana, mudahkan? jika belum faham coba baca berulang-ulang :blush:
