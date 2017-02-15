@@ -2,8 +2,7 @@
 title: "Apa itu OOP (Object Oriented Programming) ?"
 date: '2017-02-02 11:01:55'
 description: >-
-  Artikel Seri Belajar Mudah OOP PHP, Apa itu OOP? bagaimana mempelajari
-  OOP dalam PHP bagaimana dan membuat website dengan konsep OOP PHP?
+  Apa itu OOP? bagaimana mempelajari OOP dalam PHP bagaimana dan membuat website dengan konsep OOP PHP?. OOP merupakan paradigma pemrograman yang berorientasikan kepada objek. Semua data dan fungsi di dalam paradigma ini dibungkus dalam kelas-kelas atau objek-objek. Bandingkan dengan logika pemrograman terstruktur. Setiap objek dapat menerima pesan, memproses data, dan mengirim pesan ke objek lainnya
 tags:
 - BelajarOOPPHP
 published: true

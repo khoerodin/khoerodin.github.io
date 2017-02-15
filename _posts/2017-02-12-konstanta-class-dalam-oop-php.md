@@ -1,13 +1,13 @@
 ---
 title: "Konstanta Class dalam OOP PHP"
 date: '2017-02-12 08:06:00'
-description: Konstanta Class dapat juga didefinisikan di dalam sebuah *class* dan sama seperti konstanta regular konstanta class juga tidak dapat diubah nilainya.
+description: Konstanta Class atau Class Constants adalah konstanta yang didefinisikan di dalam sebuah class. Sebagaimana konstanta regular konstanta class juga berisi nilai tetap dan tidak bisa diubah sepanjang program berjalan.
 tags:
 - BelajarOOPPHP
 published: true
 ---
 
-Konstanta Class atau **_Class Constants_** dapat juga didefinisikan di dalam sebuah *class* dan sama seperti <a href="{{ site.url }}/konstanta-dalam-php/" target="_blank" title="konstanta regular">konstanta *regular*</a> konstanta *class* juga tidak dapat diubah nilainya. Nilai atau *value* dari konstanta harus berupa ekspresi *konstan* atau ekspresi tetap yaitu bukan merupakan *variable*, *property* atau *function* dan lain-lain.
+Konstanta Class atau **_Class Constants_** adalah konstanta yang didefinisikan di dalam sebuah *class*. Sebagaimana <a href="{{ site.url }}/konstanta-dalam-php/" target="_blank" title="konstanta regular">konstanta *regular*</a> konstanta *class* juga berisi nilai tetap dan tidak bisa diubah sepanjang program berjalan. Nilai atau *value* dari konstanta harus berupa ekspresi *konstan* atau ekspresi tetap yaitu bukan merupakan *variable*, *property* atau *function* dan lain-lain.
 
 ### Mendefinisikan Konstanta Class
 Mendefinisikan Konstanta *Class* yaitu diawali dengan menggunakan *keyword* `const`. Berikut contoh konstanta dalam sebuah *class*

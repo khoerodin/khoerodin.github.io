@@ -2,7 +2,7 @@
 title: Deploy Laravel Ke Heroku
 date: 2017-01-13
 description: >-
-  Langkah mudah deploy/install Laravel ke Heroku  
+  Langkah mudah deploy/install Laravel ke Heroku. Heroku merupakan layanan cloud computing bertype PaaS (Platform as a Service). Bagi para web developer lumayan lah versi gratisnya kalau hanya untuk sekedar demo aplikasi/website yang sedang dibangun.
 tags:
   - laravel
   - heroku

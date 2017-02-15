@@ -1,8 +1,7 @@
 ---
 title: "Class dan Property dalam OOP PHP"
 date: '2017-02-02 17:30:00'
-description: >-
-  Artikel Seri Belajar Mudah OOP PHP. Class adalah blueprint dari object. Class digunakan sebagai kerangka dasar atau cetakan yang menyimpan property dan method, dan yang akan kita pakai adalah hasil cetakan tersebut yaitu object
+description: Class adalah blueprint dari object. Class digunakan sebagai kerangka dasar atau cetakan yang menyimpan property dan method, dan yang akan kita pakai adalah hasil cetakan tersebut yaitu object
 tags:
 - BelajarOOPPHP
 published: true

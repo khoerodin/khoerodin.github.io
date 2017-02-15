@@ -1,13 +1,13 @@
 ---
 title: "Pewarisan (Obejct Inheritance) dalam OOP PHP"
 date: '2017-02-13 10:08:00'
-description: Apa itu Constructor dan Destructor dalam OOP PHP ? PHP menyediakan method khusus yang berjalan ketika sebuah object mulai dibuat dan dimatikan, yaitu method __construct() yang disebut constructor dan method __destruct() yang disebut destructor
+description: Pewarisan atau inheritance dalam Object-Oriented PHP adalah mewariskan property dan method baik public maupun protected kepada class lain. Ingat ya, hanya public dan protected. 
 tags:
 - BelajarOOPPHP
 published: true
 ---
 
-Pewarisan atau _inheritance_ dalam _Object-Oriented PHP_ adalah menurunkan _property_ dan _method_ baik `public` maupun `protected` kepada _class_ lain. Ingat ya, hanya `public` dan `protected`. 
+Pewarisan atau _inheritance_ dalam _Object-Oriented PHP_ adalah mewariskan _property_ dan _method_ baik `public` maupun `protected` kepada _class_ lain. Ingat ya, hanya `public` dan `protected`. 
 
 Konsep pewarisan ini sangat berguna jika kita ingin membuat _class_ lagi yang memiliki fungsi mirip dengan _class_ yang sudah ada, sehingga tidak usah membuat lagi _method_ atau _property_ yang memiliki fungsi mirip atau sama. Dengan _inheritance_ kita bisa menghindari duplikasi kode program, atau disebut juga _code reuse_.
 

@@ -1,7 +1,7 @@
 ---
 title: Install Ruby 2 di Ubuntu Tanpa RVM
 date: 2016-08-14
-description: Langkah mudah dan cepat install Ruby versi 2 di Ubuntu tanpa ribet mengggunakan Ruby Version Manager
+description: Langkah mudah dan cepat install Ruby versi 2 di Ubuntu tanpa ribet mengggunakan Ruby Version Manager. Ada banyak cara install Ruby versi 2.* di Ubuntu, salah satunya ialah menggunakan RVM.
 tags:
   - ruby
   - ubuntu
