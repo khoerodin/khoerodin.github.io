@@ -225,7 +225,7 @@ outputnya:
 **Good night, my name is Andre Editor from Jayapura**  
 **Good evening, my name is Bambang Reporter from Maluku**  
 
-**8. _Abstract class_ boleh memiliki property dan method regular**
+**8. _Abstract class_ boleh memiliki _property_ dan _method regular_**
 
 ```php
 // abstract class
@@ -245,7 +245,7 @@ abstract class User
 }
 ``` 
 
-**9. _Abstract class_ boleh memiliki static method**
+**9. _Abstract class_ boleh memiliki _static method_**
 
 ```php
 // abstract class
@@ -264,4 +264,4 @@ abstract class User
 echo User::showHi();
 ```
 
-Gimana, mudahkan? jika belum faham coba baca berulang-ulang :blush:
+Bagaimana, mudahkan? jika belum faham coba baca berulang-ulang :blush:
