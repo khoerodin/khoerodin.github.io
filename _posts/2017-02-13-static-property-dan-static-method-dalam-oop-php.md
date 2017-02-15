@@ -1,17 +1,17 @@
 ---
 title: "Static Property dan Static Method dalam OOP PHP"
 date: '2017-02-13 19:00:00'
-description: Static property dan static method adalah property dan method yang nilainya static atau tetap. Cara mendeklarasikannya yaitu property atau method diawali menggunakan keyword static.
+description: Static property dan static method adalah property dan method yang langsung dapat diakses dari class tanpa instansiasi class (pembuatan object) terlebih dahulu. Cara mendeklarasikannya yaitu property atau method diawali menggunakan keyword static.
 tags:
 - BelajarOOPPHP
 published: true
 ---
 
-Sesuai namanya _static property_ dan _static method_ adalah _property_ dan _method_ yang nilainya _static_ atau tetap. Cara mendeklarasikannya yaitu _property_ atau _method_ diawali menggunakan keyword `static`.
-
-_Static property_ dan _static method_ bisa langsung diakses dari _class_ tanpa _instansiasi class_ (pembuatan _object_) terlebih dahulu.
+_Static property_ dan _static method_ adalah _property_ dan _method_ yang langsung dapat diakses dari _class_ tanpa _instansiasi class_ (pembuatan _object_) terlebih dahulu. Cara mendeklarasikannya yaitu _property_ atau _method_ diawali menggunakan keyword `static`.
 
 _Static property_ dan _static method_ juga menerima _visibility keyword_ seperti `public`, `protected` atau `private`, namun jika _visibility keyword_ tidak dideklarasikan maka otomatis dideklarasikan sebagai `public`.
+
+Untuk mengakses _static property_ dan _static method_ tidak menggunakan keyword `$this` tapi menggunakan keyword `self`.
 
 Perhatikan dan fahami contoh-contoh berikut:  
 
@@ -20,6 +20,8 @@ Perhatikan dan fahami contoh-contoh berikut:
 ```php
 class User
 {
+    // diawali dengan keyword static
+    // setelah visibility keyword
     public static $address = 'Sumbawa';
 
     public function showAddress() {
@@ -76,6 +78,8 @@ echo $BioObject->showBio();
 
 ```php
 class User {
+    // diawali dengan keyword static
+    // setelah visibility keyword
     public static function showBio() {
         echo "Nama saya Bagus. ";
     }
