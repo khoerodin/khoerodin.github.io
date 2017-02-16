@@ -10,7 +10,7 @@
 			<span class="post-meta">
         {% include translated_date.html date=post.date format=site.date_format lang="id" %}
         •
-        {% if post.last_modified_at %}
+        {% if post.last_modified_at != blank %}
         {% assign pubdate = post.date | date_to_string %}
         {% assign revdate = post.last_modified_at | date_to_string %}
         {% if pubdate != revdate %}
