@@ -25,7 +25,7 @@ paginate_path       : /page/:num
 baseurl             : 
 domain_name         : 'https://khoerodin.id'
 # https://github.com/oncleben31/jekyll-date-basic-i18n
-date_format         : "%-d %B %Y"
+date_format         : '%-d %B %Y'
 google_analytics    : '#'
 disqus_shortname    : 'khoerodin'
 twitter             :
