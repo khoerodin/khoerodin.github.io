@@ -6,50 +6,15 @@
 			<h2>
 	  		<a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
 			</h2>
-      {% assign tgl = post.date | date: "%-d" %}
-      {% assign m = post.date | date: "%-m" %}
-      {% case m %}
-        {% when '1' %} {% assign bln = 'Jan' %}
-        {% when '2' %} {% assign bln = 'Feb' %}
-        {% when '3' %} {% assign bln = 'Mar' %}
-        {% when '4' %} {% assign bln = 'Apr' %}
-        {% when '5' %} {% assign bln = 'Mei' %}
-        {% when '6' %} {% assign bln = 'Jun' %}
-        {% when '7' %} {% assign bln = 'Jul' %}
-        {% when '8' %} {% assign bln = 'Agus' %}
-        {% when '9' %} {% assign bln = 'Sep' %}
-        {% when '10' %} {% assign bln = 'Okt' %}
-        {% when '11' %} {% assign bln = 'Nov' %}
-        {% when '12' %} {% assign bln = 'Des' %}
-      {% endcase %}
-      {% assign thn = post.date | date: "%Y" %}
-      {% assign pub_date = tgl | append: ' ' | append: bln | append: ' ' | append: thn %}
 
-      {% capture lastmod_date %}{% last_modified {{ post.path }} %}{% endcapture %}
-      {% assign tgl = lastmod_date | date: "%-d" %}
-      {% assign m = lastmod_date | date: "%-m" %}
-      {% case m %}
-        {% when '1' %} {% assign bln = 'Jan' %}
-        {% when '2' %} {% assign bln = 'Feb' %}
-        {% when '3' %} {% assign bln = 'Mar' %}
-        {% when '4' %} {% assign bln = 'Apr' %}
-        {% when '5' %} {% assign bln = 'Mei' %}
-        {% when '6' %} {% assign bln = 'Jun' %}
-        {% when '7' %} {% assign bln = 'Jul' %}
-        {% when '8' %} {% assign bln = 'Agus' %}
-        {% when '9' %} {% assign bln = 'Sep' %}
-        {% when '10' %} {% assign bln = 'Okt' %}
-        {% when '11' %} {% assign bln = 'Nov' %}
-        {% when '12' %} {% assign bln = 'Des' %}
-      {% endcase %}
-      {% assign thn = lastmod_date | date: "%Y" %}
-      {% assign rev_date = tgl | append: ' ' | append: bln | append: ' ' | append: thn %}
 			<span class="post-meta">
-        {{ pub_date }}
+        {% include translated_date.html date=post.date format=site.date_format lang="id" %}
         •
-        {% if pub_date != rev_date %}
+        {% assign pubdate = post.date | date_to_string %}
+        {% assign revdate = post.last_modified_at | date_to_string %}
+        {% if pubdate != revdate %}
         Diperbaharui
-        {{ rev_date }} •
+        {% include translated_date.html date=post.last_modified_at format=site.date_format lang="id" %} •
         {% endif %}
         
         {% assign words = post.content | number_of_words %}
