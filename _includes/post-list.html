@@ -10,10 +10,10 @@
 			<span class="post-meta">
         {% include translated_date.html date=post.date format=site.date_format lang="id" %}
         •
-        {% if post.date %}
+        <!-- {% if post.last_modified_at %}
         Diperbaharui
-        {% include translated_date.html date=post.date format=site.date_format lang="id" %} •
-        {% endif %}
+        {% include translated_date.html date=post.last_modified_at format=site.date_format lang="id" %} •
+        {% endif %} -->
         
         {% assign words = post.content | number_of_words %}
         {% if words < 360 %}

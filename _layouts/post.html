@@ -10,10 +10,10 @@ readmore: true
     <p class="post-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{% include translated_date.html date=page.date format=site.date_format lang="id" %}</time>
      • 
-    {% if page.date %}
+    <!-- {% if page.last_modified_at %}
     Diperbaharui
-    <time>{% include translated_date.html date=page.date format=site.date_format lang="id" %}</time> •
-    {% endif %}
+    <time>{% include translated_date.html date=page.last_modified_at format=site.date_format lang="id" %}</time> •
+    {% endif %} -->
 
     {% assign words = content | number_of_words %}
     {% if words < 360 %}
