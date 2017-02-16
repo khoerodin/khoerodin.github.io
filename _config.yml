@@ -1,8 +1,5 @@
 title               : Khoerodin
 description         : Bismillah, Berkah, Manfaat
-twitter             :
-  username: khoerodin
-
 
 markdown            : kramdown
 highlighter         : rouge
@@ -27,8 +24,12 @@ paginate            : 5
 paginate_path       : /page/:num
 baseurl             : 
 domain_name         : 'https://khoerodin.id'
+# https://github.com/oncleben31/jekyll-date-basic-i18n
+date_format         : '%-d %B %Y'
 google_analytics    : '#'
 disqus_shortname    : 'khoerodin'
+twitter             :
+  username: khoerodin
 
 # Details for the RSS feed generator
 url                 : 'https://khoerodin.id'
@@ -54,4 +55,4 @@ gems:
   - jemoji
   - jekyll-paginate
   - jekyll-seo-tag
-  - jekyll-admin
+  - jekyll-last-modified-at
