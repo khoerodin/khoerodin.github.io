@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 gem 'github-pages'
 gem 'jekyll-seo-tag'
-gem 'jekyll-admin'
+gem 'jekyll-last-modified-at'
