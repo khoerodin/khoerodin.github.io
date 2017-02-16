@@ -6,31 +6,58 @@
 			<h2>
 	  		<a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
 			</h2>
-			<span class="post-meta">
-			{% assign m = post.date | date: "%-m" %}
-   	  {{ post.date | date: "%-d" }}
+      {% assign tgl = post.date | date: "%-d" %}
+      {% assign m = post.date | date: "%-m" %}
       {% case m %}
-        {% when '1' %}Jan
-        {% when '2' %}Feb
-        {% when '3' %}Mar
-        {% when '4' %}Apr
-        {% when '5' %}Mei
-        {% when '6' %}Jun
-        {% when '7' %}Jul
-        {% when '8' %}Agus
-        {% when '9' %}Sep
-        {% when '10' %}Okt
-        {% when '11' %}Nov
-        {% when '12' %}Des
+        {% when '1' %} {% assign bln = 'Jan' %}
+        {% when '2' %} {% assign bln = 'Feb' %}
+        {% when '3' %} {% assign bln = 'Mar' %}
+        {% when '4' %} {% assign bln = 'Apr' %}
+        {% when '5' %} {% assign bln = 'Mei' %}
+        {% when '6' %} {% assign bln = 'Jun' %}
+        {% when '7' %} {% assign bln = 'Jul' %}
+        {% when '8' %} {% assign bln = 'Agus' %}
+        {% when '9' %} {% assign bln = 'Sep' %}
+        {% when '10' %} {% assign bln = 'Okt' %}
+        {% when '11' %} {% assign bln = 'Nov' %}
+        {% when '12' %} {% assign bln = 'Des' %}
       {% endcase %}
-      {{ post.date | date: "%Y" }}
-			 • 
-      {% assign words = post.content | number_of_words %}
-      {% if words < 360 %}
-        Kurang dari 1 menit
-      {% else %}
-        {{ words | divided_by:180 }} menit
-      {% endif %}
+      {% assign thn = post.date | date: "%Y" %}
+      {% assign pub_date = tgl | append: ' ' | append: bln | append: ' ' | append: thn %}
+
+      {% capture lastmod_date %}{% last_modified {{ post.path }} %}{% endcapture %}
+      {% assign tgl = lastmod_date | date: "%-d" %}
+      {% assign m = lastmod_date | date: "%-m" %}
+      {% case m %}
+        {% when '1' %} {% assign bln = 'Jan' %}
+        {% when '2' %} {% assign bln = 'Feb' %}
+        {% when '3' %} {% assign bln = 'Mar' %}
+        {% when '4' %} {% assign bln = 'Apr' %}
+        {% when '5' %} {% assign bln = 'Mei' %}
+        {% when '6' %} {% assign bln = 'Jun' %}
+        {% when '7' %} {% assign bln = 'Jul' %}
+        {% when '8' %} {% assign bln = 'Agus' %}
+        {% when '9' %} {% assign bln = 'Sep' %}
+        {% when '10' %} {% assign bln = 'Okt' %}
+        {% when '11' %} {% assign bln = 'Nov' %}
+        {% when '12' %} {% assign bln = 'Des' %}
+      {% endcase %}
+      {% assign thn = lastmod_date | date: "%Y" %}
+      {% assign rev_date = tgl | append: ' ' | append: bln | append: ' ' | append: thn %}
+			<span class="post-meta">
+        {{ pub_date }}
+        •
+        {% if pub_date != rev_date %}
+        Diperbaharui
+        {{ rev_date }} •
+        {% endif %}
+        
+        {% assign words = post.content | number_of_words %}
+        {% if words < 360 %}
+          Kurang dari 1 menit
+        {% else %}
+          {{ words | divided_by:180 }} menit
+        {% endif %}
       </span>
 			<p>{{ post.excerpt }}</p>
 		</li>
