@@ -10,9 +10,7 @@
 			<span class="post-meta">
         {% include translated_date.html date=post.date format=site.date_format lang="id" %}
         •
-        {% assign pubdate = post.date | date_to_string %}
-        {% assign revdate = post.last_modified_at | date_to_string %}
-        {% if pubdate != revdate %}
+        {% if page.last_modified_at %}
         Diperbaharui
         {% include translated_date.html date=post.last_modified_at format=site.date_format lang="id" %} •
         {% endif %}
