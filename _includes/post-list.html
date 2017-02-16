@@ -10,7 +10,7 @@
 			<span class="post-meta">
         {% include translated_date.html date=post.date format=site.date_format lang="id" %}
         •
-        {% if page.last_modified_at %}
+        {% if post.last_modified_at %}
         Diperbaharui
         {% include translated_date.html date=post.last_modified_at format=site.date_format lang="id" %} •
         {% endif %}
