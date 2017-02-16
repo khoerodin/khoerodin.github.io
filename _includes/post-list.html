@@ -10,6 +10,10 @@
 			<span class="post-meta">
         {% include translated_date.html date=post.date format=site.date_format lang="id" %}
         •
+        {% if post.updated_date %}
+        <time>Diperbarui {% include translated_date.html date=post.updated_date format=site.date_format lang="id" %}</time> •
+        {% endif %}
+
         {% assign words = post.content | number_of_words %}
         {% if words < 360 %}
           Kurang dari 1 menit

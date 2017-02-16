@@ -1,6 +1,7 @@
 ---
 title: "Static Property dan Static Method dalam OOP PHP"
 date: '2017-02-13 19:00:00'
+updated_date: '2017-02-16 07:06:00'
 description: Static property dan static method adalah property dan method yang langsung dapat diakses dari class tanpa instansiasi class (pembuatan object) terlebih dahulu. Cara mendeklarasikannya yaitu property atau method diawali menggunakan keyword static.
 tags:
 - BelajarOOPPHP

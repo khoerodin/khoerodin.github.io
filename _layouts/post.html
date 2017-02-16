@@ -9,21 +9,17 @@ readmore: true
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
     <p class="post-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{% include translated_date.html date=page.date format=site.date_format lang="id" %}</time>
-     • {{ page.last_modified_at }}
-    {% assign pub_date = page.date | date: site.date_format %}
-    {% assign rev_date = page.last_modified_at | date: site.date_format %}
-    {% if pub_date != rev_date %}
-    Diperbaharui
-    {% assign revdate = page.last_modified_at | date: date_to_long_string %}
-    <time>{% include translated_date.html date=revdate format=site.date_format lang="id" %}</time> •
-    {% endif %}
+      •
+      {% if page.updated_date %}
+      <time>Diperbarui {% include translated_date.html date=page.updated_date format=site.date_format lang="id" %}</time> •
+      {% endif %}
 
-    {% assign words = content | number_of_words %}
-    {% if words < 360 %}
-      Kurang dari 1 menit
-    {% else %}
-      {{ words | divided_by:180 }} menit
-    {% endif %}    
+      {% assign words = content | number_of_words %}
+      {% if words < 360 %}
+        Kurang dari 1 menit
+      {% else %}
+        {{ words | divided_by:180 }} menit
+      {% endif %}    
   </header>
 
   <div class="post-content" itemprop="articleBody">
