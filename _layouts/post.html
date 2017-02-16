@@ -9,7 +9,7 @@ readmore: true
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
     <p class="post-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{% include translated_date.html date=page.date format=site.date_format lang="id" %}</time>
-     • {{ page.last_modified_at | date: site.date_format }}
+     • {{ page.last_modified_at }}
     {% assign pub_date = page.date | date: site.date_format %}
     {% assign rev_date = page.last_modified_at | date: site.date_format %}
     {% if pub_date != rev_date %}
