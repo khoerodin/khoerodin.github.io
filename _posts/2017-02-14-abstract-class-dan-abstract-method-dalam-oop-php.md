@@ -215,7 +215,7 @@ echo $class->showGreeting("Good morning");
 
 Demikian aturan-aturan dalam _abstract class_ dan _abstract method_. 
 
-Sekali lagi saya katakan bahwa _abstract class_ berfungsi sebagai _base class_ atau _class_ acuan bagi seluruh _class_ dibawahnya. Seperti contoh di bawah ini, setiap _class_ yang diturunkan dari _class_ `User` harus memiliki _method_ `showName()` dan `showGreeting()` karena kedua _method_ tersebut merupakan _abstract method_, sedangkan untuk _method_ `showBio()` hanya bersifat opsional artinya tidak harus dimiliki oleh _child class_ karena bukan _abstract class_.
+Perhatikan contoh di bawah ini, setiap _class_ yang diturunkan dari _class_ `User` harus memiliki _method_ `showName()` dan `showGreeting()` karena kedua _method_ tersebut merupakan _abstract method_, sedangkan untuk _method_ `showBio()` hanya bersifat opsional artinya tidak harus dimiliki oleh _child class_ karena bukan _abstract class_.
 
 ```php
 abstract class User
