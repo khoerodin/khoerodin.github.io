@@ -1,14 +1,14 @@
 ---
 title: "Abstract Class dan Abstract Method dalam OOP PHP"
 date: '2017-02-14 23:02:00'
-updated_date: '2017-02-17 08:18:00'
-description: Abstract class adalah base class atau class acuan untuk child class atau class turunannya. Ketika sebuah class dibuat dengan cara menurunkan atau class inheritance dari abstract class maka semua method yang didefinisikan sebagai abstract oleh parent class harus diimplementasikan ulang oleh child class atau class turunannya.
+updated_date: '2017-02-17 10:51:00'
+description: Abstract class adalah base class atau class acuan untuk child class atau class turunannya. Abstract class bisa hanya memiliki regular method atau hanya memiliki abstract method atau memiliki campuran dari regular method dan abstract method. Ketika sebuah class dibuat dengan cara menurunkan atau class inheritance dari abstract class maka ...
 tags:
 - BelajarOOPPHP
 published: true
 ---
 
-_Abstract class_ adalah _base class_ atau _class_ acuan untuk _child class_ atau _class_ turunannya. Ketika sebuah _class_ dibuat dengan cara menurunkan atau _class inheritance_ dari _abstract class_ maka semua method yang didefinisikan sebagai _abstract_ oleh _parent class_ harus diimplementasikan ulang oleh _child class_ atau _class_ turunannya.
+_Abstract class_ adalah _base class_ atau _class_ acuan untuk _child class_ atau _class_ turunannya. _Abstract class_ bisa **hanya** memiliki _regular method_ atau **hanya** memiliki _abstract method_ atau memiliki **campuran** dari _regular method_ dan _abstract method_. Ketika sebuah _class_ dibuat dengan cara menurunkan atau _class inheritance_ dari _abstract class_ maka semua method yang didefinisikan sebagai _abstract_ oleh _parent class_ harus diimplementasikan ulang _class_ tersebut yang sebagai child class atau class turunan dari _abstract class_.
 
 Sebagai contoh kita akan membuat banyak level akses _User_ dalam sebuah website berita, ada yang sebagai _Admin_, _Editor_ dan _Reporter_. Dalam kasus tersebut yang pertama kita buat adalah membuat _parent class_ atau _class_ induk yang diberi nama `User`. _Class_ `User` tersebut nantinya akan diturunkan kepada _class_ `Admin`, `Editor` dan `Reporter`. Pada setiap _child class_ kita tentukan harus ada _method_ yang sama yang harus dimiliki, misal _method_ `showName()`. Jadi **setiap class turunan harus memiliki method `showName()`**. Untuk **memaksakan** kehendak tersebut maka dalam _parent class_ (_abstract class_) dibuatlah _abstract method_ `showName()`.
 
