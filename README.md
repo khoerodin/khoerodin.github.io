@@ -1,0 +1,1 @@
+this my old site - <a href="http://khoerodin.id" target="_blank">khoerodin dot id</a> - before move to private repo :P
